@@ -17,3 +17,21 @@
 
 % coding:utf-8
 \section{Knotenpotentialverfahren}
+\begin{enumerate}
+  \item Alle realen Spannungsquellen in Stromquellen umwandeln. 
+  \item Knoten nummerieren
+  \item Matrix aufstellen
+  \item Links alle Knoten ohne den Bezugsknoten auflisten
+  \item Oben alle Spannungen von den Knoten zum Bezugsknoten eintragen
+  \item Hauptdiagonale ausfüllen: \\
+  Dazu sind die Leitwerte aller Widerstände, die am jeweiligen Knoten angeschlossen sind zu addieren und hinzuschreiben. 
+  \item Restliche Matrix ausfüllen: \\
+  Dazu sind die Leitwerte aller Widerstände, die direkt zwischen den jeweiligen Knoten liegen zu addieren und einzutragen. Das Vorzeichen ist dabei immer negativ. \\
+  Liegt keine direkte Verbindung zwischen zwei Knoten, so wird 0 eingetragen
+  \item In der rechten Spalte Stromquellen eintragen. \\
+  Das Vorzeichen ist dabei abhängig von der Flussrichtung: \\
+  \begin{itemize}
+    \item[+] wenn der Strom in den Knoten fliesst
+    \item[-] wenn der Strom vom Knoten weg fliesst
+  \end{itemize}
+\end{enumerate}
