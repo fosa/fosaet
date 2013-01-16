@@ -29,3 +29,22 @@
 	\item Restliche Matrix ausfüllen:\\ Hierzu sind alle Widerstandswerte einzutragen welche zu zwei Maschen gehören einzutragen. Das Vorzeichen ist positiv zu wählen, falls die Maschenpfeilrichtung die selbe ist, sonst negativ.
 	\item In der rechten Spalte Spannungsquellen eintragen. Das Vorzeichen ist dabei positiv, falls die Maschenpfeilrichtung entgegen der Spannungspfeilrichtung ist, sonst negativ.
 \end{itemize}
+
+\newpage
+
+\begin{figure}[h!]
+\footnotesize
+\[ \begin{array}{c|ccc||c}
+
+M	& I_1 & I_4 & I_3 & U \\
+\hline &&&& \\
+M_1 	& R_1 + R_2 + R_3 	& -R_5 				& -R_6 			& U_{q1} \\
+&&&& \\
+M_2 	& -R_5 			& R_2 + R_4 + R_5 + R_7 	& -R_2 			& U_{q4} \\
+&&&& \\
+M_3 	& -R_6 			& -R_2 				& R_2 + R_3 + R_6 	& -U_{q3} \\
+\end{array}
+\]
+\normalsize
+\caption{Matrix zu Abb.~\ref{sch:}}
+\end{figure}
