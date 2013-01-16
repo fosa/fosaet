@@ -16,6 +16,16 @@
 %----------------------------------------
 
 % coding:utf-8
-\input{tristar}
-\input{knotpot}
-\input{mastro}
+\section{Umwandlung Stern $\leftrightarrow$ Dreieck}
+\subsection{Umwandlung Dreieck $\to$ Stern}
+\[ \begin{matrix}
+R_1 = \dfrac{R_{12} \cdot R_{31}}{R_{12} + R_{23} + R_{31}}\\\\
+R_2 = \dfrac{R_{23} \cdot R_{12}}{R_{12} + R_{23} + R_{31}}\\\\
+R_3 = \dfrac{R_{31} \cdot R_{23}}{R_{12} + R_{23} + R_{31}}\\\\
+\end{matrix} \]
+\subsection{Umwandlung Stern $\to$ Dreieck}
+\[ \begin{matrix}
+R_{12} = \dfrac{R_1 \cdot R_2 + R_2 \cdot R_3 + R_3 \cdot R_1}{R_3}\\\\
+R_{23} = \dfrac{R_1 \cdot R_2 + R_2 \cdot R_3 + R_3 \cdot R_1}{R_1}\\\\
+R_{31} = \dfrac{R_1 \cdot R_2 + R_2 \cdot R_3 + R_3 \cdot R_1}{R_2}\\\\
+\end{matrix} \]
