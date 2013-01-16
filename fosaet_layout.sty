@@ -1,0 +1,83 @@
+% coding:utf-8
+
+%----------------------------------------
+%FOSAMATH, a LaTeX-Code for a mathematical summary for basic analysis
+%Copyright (C) 2013, Daniel Winz, Ervin Mazlagic, Adrian Imboden, Philipp Langer
+
+%This program is free software; you can redistribute it and/or
+%modify it under the terms of the GNU General Public License
+%as published by the Free Software Foundation; either version 2
+%of the License, or (at your option) any later version.
+
+%This program is distributed in the hope that it will be useful,
+%but WITHOUT ANY WARRANTY; without even the implied warranty of
+%MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+%GNU General Public License for more details.
+%----------------------------------------
+
+% coding:utf-8
+\usepackage[utf8]{inputenc} % für input utf8
+\usepackage[T1]{fontenc} %Schriftcodierung mit UTF-8
+\usepackage{textcomp} %Erweiterung von fontenc
+\usepackage{lmodern} %Erweiterung des Zeichensatzes
+
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage[ngerman]{babel}
+\usepackage{amsmath}
+%\usepackage[all]{xy}
+%\usepackage[xindy]{glossaries}
+\usepackage{makeidx}
+\usepackage{pdfpages}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{amssymb}
+\usepackage{ifthen}
+\usepackage{uhrzeit}
+
+\usepackage{color}
+\usepackage{colortbl}
+\definecolor{gray}{gray}{0.749}
+\definecolor{lgray}{gray}{0.85}
+\definecolor{red}{rgb}{1, 0, 0}
+\definecolor{green}{rgb}{0, 1, 0}
+\definecolor{blue}{rgb}{0, 0, 1}
+
+% \newboolean{ti}
+% \newboolean{nspire}
+% \newboolean{tiboth}
+
+\DeclareMathOperator{\arccot}{arccot}
+
+\usepackage{fancyhdr}                        % http://en.wikibooks.org/wiki/LaTeX/Page_Layout#Customising_with_fancyhdr
+
+\pagestyle{fancy} %eigener Seitenstil
+\fancyhf{} %alle Kopf- und Fusszeilenfelder bereinigen
+
+\addtolength{\textheight}{3.5cm}
+\addtolength{\voffset}{-1.5cm}
+\addtolength{\textwidth}{1cm}
+\addtolength{\evensidemargin}{-15mm}
+\addtolength{\oddsidemargin}{5mm}
+
+\addtolength{\textheight}{\topmargin-\evensidemargin-\hoffset+\voffset}
+\setlength{\topmargin}{\evensidemargin+\hoffset-\voffset}
+
+\addtolength{\headwidth}{1cm}
+
+%\rhead{\setlength{\unitlength}{1mm}
+%\begin{picture}(-2,7)
+%    \includegraphics[width=35mm]{hslu_logo2.PNG}
+%\end{picture}}
+
+\fancyhead[L]{} %Kopfzeile links
+\fancyhead[C]{} %zentrierte Kopfzeile
+\fancyhead[RO]{\rightmark}
+\fancyhead[LE]{\leftmark}
+%\fancyhead[R]{\includegraphics[scale=0.25]{hslu_logo2.PNG}}
+\renewcommand{\headrulewidth}{0.4pt} %obere Trennlinie
+\fancyfoot[L]{}
+\fancyfoot[C]{}
+\fancyfoot[RO]{\thepage}
+\fancyfoot[LE]{\thepage}
+\renewcommand{\footrulewidth}{0.4pt} %untere Trennlinie
