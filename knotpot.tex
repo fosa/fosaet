@@ -35,3 +35,35 @@
     \item[-] wenn der Strom vom Knoten weg fliesst
   \end{itemize}
 \end{enumerate}
+
+\newpage
+\subsection{Beispiel}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.55\textwidth]{knotpot_sch.pdf}
+\includegraphics[width=0.7\textwidth]{knotpot_sch_2.pdf}
+\label{sch:knotpot_2}
+\caption{Umwandlung von Strom- zu Spannungsquellen}
+\end{figure}
+
+\begin{figure}[h!]
+\footnotesize
+\[ 	\begin{array}{c|cccc||c}
+	\text{N} & U_{10}						& U_{20}										& U_{30} 											& U_{40} 											& \text{I} \\
+	\hline &&&&& \\
+	N_1	& \frac{1}{R_4} + \frac{1}{R_7}		& -\frac{1}{R_7} 								& 0 												& 0 												& -I_{q4} 			\\
+	&&&&& \\
+	N_2	& -\frac{1}{R_7} 					& \frac{1}{R_1} + \frac{1}{R_5} + \frac{1}{7} 	& -\frac{1}{R_5} 									& -\frac{1}{R_1} 									& I_{q1} 			\\ 
+	&&&&& \\
+	N_3	& 0 								& -\frac{1}{R_5} 								& \frac{1}{R_2} + \frac{1}{R_5} + \frac{1}{R_6} 	& -\frac{1}{R_6} 									& -I_{q2} 			\\ 
+	&&&&& \\
+	N_4 & 0 								& -\frac{1}{R_1} 								& -\frac{1}{R_6} 									& \frac{1}{R_1} + \frac{1}{R_3} + \frac{1}{R_6} 	& -I_{q2} -I_{q3} 	\\ 
+	&&&&& \\
+	\end{array}
+\]
+\normalsize
+\caption{Matrix zu Abb.~\ref{sch:knotpot_2}}
+\end{figure}
+
+\newpage
