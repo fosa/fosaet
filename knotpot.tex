@@ -19,7 +19,8 @@
 \section{Knotenpotentialverfahren}
 \begin{enumerate}
   \item Alle realen Spannungsquellen in Stromquellen umwandeln. 
-  \item Knoten nummerieren
+  \item Null-Potential ($N_0$) wählen (bestenfalls dort wo der Strom gesucht ist)
+  \item restliche Knoten nummerieren ($N_1$, $N_2$, $N_3$ ...$N_n$)
   \item Matrix aufstellen
   \item Links alle Knoten ohne den Bezugsknoten auflisten
   \item Oben alle Spannungen von den Knoten zum Bezugsknoten eintragen
@@ -35,17 +36,35 @@
     \item[-] wenn der Strom vom Knoten weg fliesst
   \end{itemize}
 \end{enumerate}
+
+\newpage
+\subsection{Beispiel}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.55\textwidth]{knotpot_sch.pdf}
+\includegraphics[width=0.7\textwidth]{knotpot_sch_2.pdf}
+\label{sch:knotpot_2}
+\caption{Umwandlung von Strom- zu Spannungsquellen}
+\end{figure}
+
+\begin{figure}[h!]
 \footnotesize
-\[ \begin{array}{l|cccc||c}
-               &U_{10}&U_{20}&U_{30}&U_{40}&\\
-\hline&&&&&\\
-N_1 & \frac{1}{R_4}+\frac{1}{R_7} &                            -\frac{1}{R_1} &                                         0 &                                         0 &         -I_{q_4}\\
-&&&&&\\
-N_1 &              -\frac{1}{R_7} & \frac{1}{R_1}+\frac{1}{R_5}+\frac{1}{R_7} &                            -\frac{1}{R_5} &                            -\frac{1}{R_1} &          I_{q_1}\\
-&&&&&\\
-N_1 &                           0 &                            -\frac{1}{R_5} & \frac{1}{R_2}+\frac{1}{R_5}+\frac{1}{R_6} &                            -\frac{1}{R_6} &         -I_{q_2}\\
-&&&&&\\
-N_1 &                           0 &                            -\frac{1}{R_1} &                            -\frac{1}{R_6} & \frac{1}{R_1}+\frac{1}{R_3}+\frac{1}{R_6} & -I_{q_1}-I_{q_3}\\
-&&&&&\\
-\end{array}\]
+\[ 	\begin{array}{c|cccc||c}
+	N & U_{10}						& U_{20}										& U_{30} 											& U_{40} 											& I \\
+	\hline &&&&& \\
+	N_1	& \frac{1}{R_4} + \frac{1}{R_7}		& -\frac{1}{R_7} 								& 0 												& 0 												& -I_{q4} 			\\
+	&&&&& \\
+	N_2	& -\frac{1}{R_7} 					& \frac{1}{R_1} + \frac{1}{R_5} + \frac{1}{7} 	& -\frac{1}{R_5} 									& -\frac{1}{R_1} 									& I_{q1} 			\\ 
+	&&&&& \\
+	N_3	& 0 								& -\frac{1}{R_5} 								& \frac{1}{R_2} + \frac{1}{R_5} + \frac{1}{R_6} 	& -\frac{1}{R_6} 									& -I_{q2} 			\\ 
+	&&&&& \\
+	N_4 & 0 								& -\frac{1}{R_1} 								& -\frac{1}{R_6} 									& \frac{1}{R_1} + \frac{1}{R_3} + \frac{1}{R_6} 	& -I_{q2} -I_{q3} 	\\ 
+	&&&&& \\
+	\end{array}
+\]
 \normalsize
+\caption{Matrix zu Abb.~\ref{sch:knotpot_2}}
+\end{figure}
+
+\newpage
