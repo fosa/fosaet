@@ -17,3 +17,29 @@
 
 % coding:utf-8
 \section{Umwandlung Spannungsquelle $\leftrightarrow$ Stromquelle}
+
+\subsection{Thévenin-Theorem}
+Nach Thévenin kann jedes Netzwerk bestehend aus Strom-, Spannungsquellen und Widerständen in eine Ersatzspannungsquelle\footnote{Thévenin-Äquivalent} gewandelt werden.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=\schscale]{thevenin_sch_2.pdf}
+\label{sch:thevenin}
+\caption{Schaltung (l) und ihr Thévenin-Äquivalent (r)}
+\end{figure}
+
+\subsubsection{Berechnung}
+\begin{itemize}
+\item Leerlaufspannung $U_{Th}$ bestimmen (siehe Kapitel~\ref{sec:superpos})
+\item Ersatzwiderstand ermitteln durch ausschalten aller unabhängiger Quellen (Spannungsquellen werden kurzgeschlossen, Stromquellen unterbrochen)
+\end{itemize}
+
+\subsection{Norton-Theorem}
+Nach Norton kann jedes Netzwerk bestehend aus Strom-, Spannungsquellen und Widerständen in eine Ersatzstromquelle\footnote{Norton-Äqivalent} gewandelt werden.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=\schscale]{norton_sch_2.pdf}
+\label{sch:norton}
+\caption{Schaltung (l) und ihr Norton-Äquivalent (r)}
+\end{figure}
