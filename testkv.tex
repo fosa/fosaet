@@ -3,47 +3,86 @@
 \section{Test für KV-Map}
 
 \begin{figure}[h!]
-	\begin{table}
-		\begin{tabular}{cccc|c}
-   		a
-    		& b
-     		& c
-      		& d
-       		&$ y: a \mathbin{\oplus} b \oplus c \oplus d$ \\
-       		\hline
-       		0 & 0 & 0 & 0 & 0 \\
-       		0 & 0 & 0 & 1 & 1 \\
-       		0 & 0 & 1 & 0 & 1 \\
-       		0 & 0 & 1 & 1 & 0 \\
+\begin{minipage}{0.35\textwidth}
+	\begin{tabular}{cccc|c}
+		a
+		& b
+		& c
+		& d
+		&$y$\\
+		\hline
+		0 & 0 & 0 & 0 & 1 \\
+		0 & 0 & 0 & 1 & 0 \\
+		0 & 0 & 1 & 0 & 0 \\
+		0 & 0 & 1 & 1 & 1 \\
 		%\hline
-       		0 & 1 & 0 & 0 & 1 \\
-       		0 & 1 & 0 & 1 & 0 \\
-       		0 & 1 & 1 & 0 & 0 \\
-       		0 & 1 & 1 & 1 & 1 \\
-       		%\hline
-       		1 & 0 & 0 & 0 & 1 \\
-       		1 & 0 & 0 & 1 & 0 \\
-       		1 & 0 & 1 & 0 & 0 \\
-       		1 & 0 & 1 & 1 & 1 \\
-       		%\hline
-       		1 & 1 & 0 & 0 & 0 \\
-       		1 & 1 & 0 & 1 & 1 \\
-       		1 & 1 & 1 & 0 & 1 \\
-       		1 & 1 & 1 & 1 & 0 \\
-       		%\hline
-       		\end{tabular}
-		%\caption{Wahrheitstabelle zu~\ref{kvmap_a}}
-		%\label{truthtable_a}
-	\end{table}
-
+		0 & 1 & 0 & 0 & 1 \\
+		0 & 1 & 0 & 1 & 0 \\
+		0 & 1 & 1 & 0 & 0 \\
+		0 & 1 & 1 & 1 & 1 \\
+		%\hline
+		1 & 0 & 0 & 0 & 1 \\
+		1 & 0 & 0 & 1 & 0 \\
+		1 & 0 & 1 & 0 & 0 \\
+		1 & 0 & 1 & 1 & 1 \\
+		%\hline
+		1 & 1 & 0 & 0 & 1 \\
+		1 & 1 & 0 & 1 & 0 \\
+		1 & 1 & 1 & 0 & 0 \\
+		1 & 1 & 1 & 1 & 1 \\
+		%\hline
+	\end{tabular}
+	%\caption{Wahrheitstabelle zu~\ref{kvmap_a}}
+	%\label{truthtable_a}
+\end{minipage}
+\begin{minipage}{0.1\textwidth}
+	\Huge$\Rightarrow$\normalsize
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
 	\kvnoindex
-	%\karnaughmap{4}{f(a,b,c,d):}{abcd}{1110011001100110}{}
-
-	\begin{figure}
-		%\centering
-		\karnaughmap{4}{$y$}{dcba}{0110100110010110}{}
-		%\caption{Karnaugh-Map zum Diagramm~\ref{truthtable_a}}
-		%\label{kvmap_a}
-	\end{figure}
+	\karnaughmap{4}
+	            {$y$}
+		    {dcba}
+		    {1001100110011001}
+		    {}
+	\karnaughmap{4}
+	            {$y$}
+		    {dcba}
+		    {1001100110011001}
+		    {
+			\thicklines
+			\textcolor{red}{
+			\put(2,2){\oval(1.9,1.9)}
+			\textcolor{blue}{
+			\put(0,0){\oval(1.9,1.9)[rt]}
+			\put(0,4){\oval(1.9,1.9)[rb]}
+			\put(4,0){\oval(1.9,1.9)[lt]}
+			\put(4,4){\oval(1.9,1.9)[lb]}}}}
+\end{minipage}
 \end{figure}
-\verb?\karnaughmap{4}{$f(a,b,c,d)=y$}{abcd}{0110100110010110}{}?
+\begin{lstlisting}[caption=Karnaugh-Diagramm]{karnaugh1}
+% Karnaugh-Diagramm : 
+
+\karnaughmap{4}
+            {$y$}
+            {dcba}
+            {1001100110011001}
+            {}
+\end{lstlisting}
+
+\begin{lstlisting}[caption=Karnaugh-Diagramm mit Vereinfachungen]{karnaugh2}
+% Karnaugh-Diagramm mit Vereinfachungen
+
+\karnaughmap{4}
+            {$y$}
+            {dcba}
+            {1001100110011001}
+            {\thicklines
+             \textcolor{red}{
+             \put(2,2){\oval(1.9,1.9)}
+             \textcolor{blue}{
+             \put(0,0){\oval(1.9,1.9)[rt]}
+             \put(0,4){\oval(1.9,1.9)[rb]}
+             \put(4,0){\oval(1.9,1.9)[lt]}
+             \put(4,4){\oval(1.9,1.9)[lb]}}}}
+\end{lstlisting}

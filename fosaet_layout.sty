@@ -35,6 +35,39 @@
 \usepackage{ifthen}
 \usepackage{uhrzeit}
 
+% Source-Code Paket
+\definecolor{darkgreen}{rgb}{0,0.6,0}
+\usepackage{listings}
+\lstset{language=[LaTeX]TeX}
+\lstloadlanguages{TeX}
+\lstset{basicstyle=\ttfamily,
+        numbers=left,
+        numberstyle=\tiny, 
+        numbersep=5pt,
+        breaklines=true,
+        texcsstyle=\color{black},
+        backgroundcolor=\color{gray!10},
+        commentstyle=\color{darkgreen},
+        %keywordstyle=\color{red}\bfseries,
+        %stringstyle=\color{blue}\bfseries,
+        frame=single,
+        tabsize=2,
+        rulecolor=\color{black!30},
+        title=\lstname,
+        escapeinside={\%*}{*)},
+        breaklines=true,
+        breakatwhitespace=true,
+        framextopmargin=2pt,
+        framexbottommargin=2pt,
+        inputencoding=utf8,
+        extendedchars=true,
+        literate={Ö}{{\"O}}1
+                 {Ä}{{\"A}}1
+                 {Ü}{{\"U}}1
+                 {ü}{{\"u}}1
+                 {ä}{{\"a}}1
+                 {ö}{{\"o}}1 }
+
 \usepackage{color}
 \usepackage{colortbl}
 \definecolor{gray}{gray}{0.749}
