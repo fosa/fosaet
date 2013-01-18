@@ -1,0 +1,49 @@
+\input{kvmacros}
+
+\section{Test für KV-Map}
+
+\begin{figure}[h!]
+	\begin{table}
+		\begin{tabular}{cccc|c}
+   		a
+    		& b
+     		& c
+      		& d
+       		&$ y: a \mathbin{\oplus} b \oplus c \oplus d$ \\
+       		\hline
+       		0 & 0 & 0 & 0 & 0 \\
+       		0 & 0 & 0 & 1 & 1 \\
+       		0 & 0 & 1 & 0 & 1 \\
+       		0 & 0 & 1 & 1 & 0 \\
+		%\hline
+       		0 & 1 & 0 & 0 & 1 \\
+       		0 & 1 & 0 & 1 & 0 \\
+       		0 & 1 & 1 & 0 & 0 \\
+       		0 & 1 & 1 & 1 & 1 \\
+       		%\hline
+       		1 & 0 & 0 & 0 & 1 \\
+       		1 & 0 & 0 & 1 & 0 \\
+       		1 & 0 & 1 & 0 & 0 \\
+       		1 & 0 & 1 & 1 & 1 \\
+       		%\hline
+       		1 & 1 & 0 & 0 & 0 \\
+       		1 & 1 & 0 & 1 & 1 \\
+       		1 & 1 & 1 & 0 & 1 \\
+       		1 & 1 & 1 & 1 & 0 \\
+       		%\hline
+       		\end{tabular}
+		%\caption{Wahrheitstabelle zu~\ref{kvmap_a}}
+		%\label{truthtable_a}
+	\end{table}
+
+	\kvnoindex
+	%\karnaughmap{4}{f(a,b,c,d):}{abcd}{1110011001100110}{}
+
+	\begin{figure}
+		%\centering
+		\karnaughmap{4}{$y$}{dcba}{0110100110010110}{}
+		%\caption{Karnaugh-Map zum Diagramm~\ref{truthtable_a}}
+		%\label{kvmap_a}
+	\end{figure}
+\end{figure}
+\verb?\karnaughmap{4}{$f(a,b,c,d)=y$}{abcd}{0110100110010110}{}?
