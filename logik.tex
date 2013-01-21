@@ -18,7 +18,6 @@
 
 \subsection{NOT}
 \[ X = \overline{A} \]
-\subsubsection{Wahrheitstabelle}
 \begin{table}[h!]
 \[ \begin{array}{c|c}
 A&X\\
@@ -30,7 +29,9 @@ A&X\\
 
 \subsection{OR}
 \[ X = A \lor B \]
-\subsubsection{Wahrheitstabelle}
+\begin{venndiagram2sets}
+  \fillA \fillB
+\end{venndiagram2sets}
 \begin{table}[h!]
 \[ \begin{array}{cc|c}
 A&B&X\\
@@ -44,7 +45,9 @@ A&B&X\\
 
 \subsection{NOR}
 \[ X = \overline{A \lor B} \]
-\subsubsection{Wahrheitstabelle}
+\begin{venndiagram2sets}
+  \fillNotAorB
+\end{venndiagram2sets}
 \begin{table}[h!]
 \[ \begin{array}{cc|c}
 A&B&X\\
@@ -58,7 +61,9 @@ A&B&X\\
 
 \subsection{AND}
 \[ X = A \land B \]
-\subsubsection{Wahrheitstabelle}
+\begin{venndiagram2sets}
+  \fillACapB
+\end{venndiagram2sets}
 \begin{table}[h!]
 \[ \begin{array}{cc|c}
 A&B&X\\
@@ -72,7 +77,9 @@ A&B&X\\
 
 \subsection{NAND}
 \[ X = \overline{A \land B} \]
-\subsubsection{Wahrheitstabelle}
+\begin{venndiagram2sets}
+  \fillNotAorB \fillOnlyA \fillOnlyB
+\end{venndiagram2sets}
 \begin{table}[h!]
 \[ \begin{array}{cc|c}
 A&B&X\\
@@ -86,7 +93,9 @@ A&B&X\\
 
 \subsection{XOR}
 \[ X = A \oplus B \]
-\subsubsection{Wahrheitstabelle}
+\begin{venndiagram2sets}
+  \fillOnlyA \fillOnlyB
+\end{venndiagram2sets}
 \begin{table}[h!]
 \[ \begin{array}{cc|c}
 A&B&X\\
@@ -100,7 +109,9 @@ A&B&X\\
 
 \subsection{XNOR}
 \[ X = \overline{A \oplus B} \]
-\subsubsection{Wahrheitstabelle}
+\begin{venndiagram2sets}
+  \fillNotAorB \fillACapB
+\end{venndiagram2sets}
 \begin{table}[h!]
 \[ \begin{array}{cc|c}
 A&B&X\\
