@@ -20,10 +20,10 @@
 \begin{figure}[h!]
   \begin{subfigure}{0.3\textwidth}
     \[ X = \overline{A} \]
-%     \begin { tikztimingtable }
-%       A & lLHl \\
-%       B & hHLh \\
-%     \end { tikztimingtable }
+    \begin{tikztimingtable}
+      A & lHLh \\
+      X & hLHl \\
+    \end{tikztimingtable}
   \end{subfigure}
   \begin{subfigure}{0.15\textwidth}
     \begin{tikzpicture}[circuit logic IEC]
@@ -55,6 +55,11 @@
 \begin{figure}[h!]
   \begin{subfigure}{0.3\textwidth}
     \[ X = A \lor B \]
+    \begin{tikztimingtable}
+      A & lLHLHl \\
+      B & lLLHHl \\
+      X & lLHHHl \\
+    \end{tikztimingtable}
   \end{subfigure}
   \begin{subfigure}{0.15\textwidth}
     \begin{tikzpicture}[circuit logic IEC]
@@ -85,6 +90,11 @@
 \begin{figure}[h!]
   \begin{subfigure}{0.3\textwidth}
     \[ X = \overline{A \lor B} \]
+    \begin{tikztimingtable}
+      A & lLHLHl \\
+      B & lLLHHl \\
+      X & hHLLLh \\
+    \end{tikztimingtable}
   \end{subfigure}
   \begin{subfigure}{0.15\textwidth}
     \begin{tikzpicture}[circuit logic IEC]
@@ -115,6 +125,11 @@
 \begin{figure}[h!]
   \begin{subfigure}{0.3\textwidth}
     \[ X = A \land B \]
+    \begin{tikztimingtable}
+      A & lLHLHl \\
+      B & lLLHHl \\
+      X & lLLLHl \\
+    \end{tikztimingtable}
   \end{subfigure}
   \begin{subfigure}{0.15\textwidth}
     \begin{tikzpicture}[circuit logic IEC]
@@ -147,6 +162,11 @@
 \begin{figure}[h!]
   \begin{subfigure}{0.3\textwidth}
     \[ X = \overline{A \land B} \]
+    \begin{tikztimingtable}
+      A & lLHLHl \\
+      B & lLLHHl \\
+      X & hHHHLh \\
+    \end{tikztimingtable}
   \end{subfigure}
   \begin{subfigure}{0.15\textwidth}
     \begin{tikzpicture}[circuit logic IEC]
@@ -177,6 +197,11 @@
 \begin{figure}[h!]
   \begin{subfigure}{0.3\textwidth}
     \[ X = A \oplus B \]
+    \begin{tikztimingtable}
+      A & lLHLHl \\
+      B & lLLHHl \\
+      X & lLHHLl \\
+    \end{tikztimingtable}
   \end{subfigure}
   \begin{subfigure}{0.15\textwidth}
     \begin{tikzpicture}[circuit logic IEC]
@@ -207,6 +232,11 @@
 \begin{figure}[h!]
   \begin{subfigure}{0.3\textwidth}
     \[ X = \overline{A \oplus B} \]
+    \begin{tikztimingtable}
+      A & lLHLHl \\
+      B & lLLHHl \\
+      X & hHLLHh \\
+    \end{tikztimingtable}
   \end{subfigure}
   \begin{subfigure}{0.15\textwidth}
     \begin{tikzpicture}[circuit logic IEC]
