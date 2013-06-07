@@ -1,0 +1,57 @@
+﻿Gleichstrom
+=================
+Zählpfeilsysteme
+Ohmsches Gesetz
+Leistung
+Kirchhoff
+
+
+Elektrostatik
+=============
+
+
+
+Wechselstrom
+============
+
+
+
+Drehstrom
+=========
+
+
+
+Schaltungstechnik
+=================
+
+Spannungsteiler
+Stromteiler
+Brückenschaltung
+Leistungsanpassung
+Spannungsquelle
+Stromquelle
+Umwandlung Spannungsquelle <-> Stromquelle
+Quellenverschiebung
+Umwandlung Stern <-> Dreieck
+Superposition
+Knotenpotentialverfahren
+Maschenstromverfahren
+
+
+Bauteile
+========
+
+Widerstand
+Kondensator
+Induktivität
+Diode
+Bipolarer Transistor
+FET
+Diac
+Thyristor
+Triac
+IGBT
+Operationsverstärker
+
+Digitaltechnik
+==============
