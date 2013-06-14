@@ -14,9 +14,18 @@
 %GNU General Public License for more details.
 %----------------------------------------
 
-\chapter{Wechselstrom}
-\newpage
-\input{ausgleich}       % Ausgleichsvorgänge
-\input{impedanz}        % Impedanz
-\input{wert_wechs}      % Werte von Wechselgrössen
-\input{leist_wechs}     % Leistungsberechnung bei Wechselgrössen
+\section{Leistungsberechnung bei Wechselgrössen}
+
+\subsection{Scheinleistung ($S$)}
+\[ S = U_{eff} \cdot I_{eff} \]
+\[ S = \sqrt{P^2 + Q^2} \qquad \cos(\varphi) = \frac{P}{S} \]
+\[ \underline{S} = P + j Q \]
+\[ \underline{S} = S_{eff} \cdot e^{j\varphi} \]
+\[ \underline{S} = S_{eff} \angle \varphi \]
+\[ \underline{S} = U \cdot I^* = I^2 \cdot Z = \frac{U^2}{\underline{Z}^*} \]
+
+\subsection{Wirkleistung $P$}
+\[ P = U_{eff} \cdot I_{eff} \cdot \cos(\varphi) \]
+
+\subsection{Blindleistung $Q$}
+\[ Q = U_{eff} \cdot I_{eff} \cdot sin(\varphi) \]
