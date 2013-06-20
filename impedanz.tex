@@ -19,13 +19,31 @@
 \subsubsection{Widerstand}
 \[ Z_R = R \]
 \[ u_R = R \cdot i_R \]
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.3\textwidth]{zeig_ui_wid.pdf}
+	\caption{Zeigerdiagramm Widerstand}
+	\label{fig:zeig_ui_wid}
+\end{figure}
 
 \subsubsection{Kondensator}
 \[ Z_c = \frac{1}{j \cdot \omega \cdot C} = \frac{1}{j \cdot 2 \pi \cdot f \cdot C} \]
 \[ u_C = \left( \frac{1}{C} \cdot \int i_C ~ dt \right) + U_C(0) \]
 \[ i_C = C \cdot \frac{du_C}{dt} \]
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.3\textwidth]{zeig_ui_kap.pdf}
+	\caption{Zeigerdiagramm Kondensator}
+	\label{fig:zeig_ui_kap}
+\end{figure}
 
 \subsubsection{Spule}
 \[ Z_L = j \cdot \omega \cdot L = j \cdot 2 \pi \cdot f \cdot L \]
 \[ u_L = L \cdot \frac{di_L}{dt} \]
 \[ i_L = \left( \frac{1}{L} \cdot \int u_L ~ dt \right) + I_L(0) \]
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.3\textwidth]{zeig_ui_ind.pdf}
+	\caption{Zeigerdiagramm Spule}
+	\label{fig:zeig_ui_ind}
+\end{figure}
