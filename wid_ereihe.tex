@@ -14,13 +14,17 @@
 %GNU General Public License for more details.
 %----------------------------------------
 
-\chapter{Bauteile}
-\newpage
-\input{wid}         % Widerstand
-\input{wid_spez}    % Spezifischer Widerstand
-\input{wid_ereihe}  % Widerstandsreihen, E-Reihen
-\input{wid_temp}    % Temperaturabhängigkeit von Widerständen
+\subsection{Widerstandsreihen / E-Reihen}
+\subsubsection{Berechnung}
+\[ R_k = {\sqrt[n]{10}}^m \]
+\begin{tabular}{@{}ll}
+$R_k$: & Widerstandswert \\
+$n$:   & Typ der Reihe (E $n$) (z.B. E12 $\rightarrow$ $n=12$) \\
+$m$:   & Stelle des Widerstandswertes in der Reihe \\
+\end{tabular}
+\textbf{Achtung!} Die Werte sind nicht korrekt mathematisch gerundet. Sie sind 
+aus der Tabelle \ref{tab:ereihe} zu entnehmen. 
 
-\input{kond}        % Kondensator
-\input{kond_kap}    % Kapazität
-%\input{}
+\subsection{Toleranz}
+
+\subsubsection{Tabelle}
