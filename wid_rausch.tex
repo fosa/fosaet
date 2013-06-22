@@ -14,17 +14,13 @@
 %GNU General Public License for more details.
 %----------------------------------------
 
-\chapter{Bauteile}
-\newpage
-\input{wid}         % Widerstand
-\input{wid_spez}    % Spezifischer Widerstand
-\input{wid_idens}   % Stromdichte
-\input{wid_spann}   % Spannungsabhängigkeit
-\input{wid_rausch}  % Rauschen
-\input{wid_ereihe}  % Widerstandsreihen, E-Reihen
-\input{wid_temp}    % Temperaturabhängigkeit von Widerständen
-\input{wid_vdr}     % Varistor
-
-\input{kond}        % Kondensator
-\input{kond_kap}    % Kapazität
-%\input{}
+\subsection{Rauschen}
+Rauschleistung
+\[ P_N = \frac{{U_N}^2}{R} = 4 \cdot k_b \cdot \vartheta \cdot \Delta f \]
+\begin{tabular}{@{}lp{0.5\textwidth}}
+  $P_N$         & Rauschleistung \\
+  $U_N$         & Rauschspannung \\
+  $k_b$         & Bolzmann-Konstante ($1.38066 [\frac{J}{K}]$) \\
+  $\vartheta$   & Absoluttemperatur $[K]$\\
+  $\Delta f$    & Bandbreite $[Hz]$ \\
+\end{tabular}
