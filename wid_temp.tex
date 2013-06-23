@@ -19,13 +19,29 @@
 \subsubsection{Lineare Temperaturabhängigkeit von Widerständen}
 \[ R_\vartheta = R_{20} \cdot (1 + \alpha \cdot \Delta \vartheta) \]
 \[ \Delta R = R_{20} \cdot \alpha \cdot \Delta \vartheta \]
-Falls $R_{20}$ nicht bekannt ist, kann mit $R_A$ bei $\vartheta_a$ und $\tau$ die Temperaturabhängigkeit mit folgender Formel berechnet werden:  \[ R_\vartheta = R_A \frac{\tau + \vartheta}{\tau + \vartheta_A} \]
+Falls $R_{20}$ nicht bekannt ist, kann mit $R_A$ bei $\vartheta_a$ und $\tau$ 
+die Temperaturabhängigkeit mit folgender Formel berechnet werden:  
+\[ R_\vartheta = R_A \frac{\tau + \vartheta}{\tau + \vartheta_A} \]
 Wobei 
 \[ \tau = \frac{1}{\alpha_20} - 20^{\circ}\text{C} \]
 
 \subsubsection{Nichtlineare Temperaturabhängigkeit (PTC)}
+\[ R_N = 2 \cdot R_A \]
 \[ R_T = R_N \cdot e^{\alpha (T - T_N)} \]
-\[ \alpha = \frac{\ln R_2 - \ln R_1}{T_2 - T_1} = \frac{d R_t}{d T}\frac{1}{R_T} \]
+\[ \alpha = \frac{\ln R_1 - \ln R_2}{T_2 - T_1} 
+= \frac{\ln\left(\frac{R_1}{R_2}\right)}{\Delta T} 
+= \frac{d R_t}{d T}\frac{1}{R_T} \]
+\begin{tabular}{@{}lp{0.5\textwidth}}
+  $t_A$:        & Anfangstemperatur $[^\circ C]$ \\
+  $t_N$:        & Nenntemperatur $[^\circ C]$ \\
+  $R_N$:        & Anfangswiderstand $[\Omega]$ \\
+  $\alpha$:     & Temperaturkoeffizient oberhalb der Nenntemperatur 
+                  ($+5\frac{\%}{K}$ bis $+70\frac{\%}{K}$) \\
+  $R_1$, $R_2$: & Widerstände $[\Omega]$ für zwei Punkte oberhalb der 
+                  Nenntemperatur \\
+  $\Delta T$:   & Temperaturunterschied $[^\circ C]$ für die beiden Punkte mit 
+                  $R_1$ und $R_2$
+\end{tabular}
 
 \subsubsection{Nichtlineare Temperaturabhängigkeit (NTC)}
 \[ R_T = R_N \cdot e^{b\left(\frac{1}{T} - \frac{1}{T_N}\right)} \]
