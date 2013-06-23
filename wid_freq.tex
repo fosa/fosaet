@@ -1,0 +1,68 @@
+% coding:utf-8
+
+%FOSAET, a LaTeX-Code for a electrical summary of basic electronics
+%Copyright (C) 2013, Daniel Winz, Ervin Mazlagic
+
+%This program is free software; you can redistribute it and/or
+%modify it under the terms of the GNU General Public License
+%as published by the Free Software Foundation; either version 2
+%of the License, or (at your option) any later version.
+
+%This program is distributed in the hope that it will be useful,
+%but WITHOUT ANY WARRANTY; without even the implied warranty of
+%MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+%GNU General Public License for more details.
+%----------------------------------------
+
+\subsection{Frequenzabhängigkeit}
+% \begin{figure}{h!}
+%   \begin{tikzpicture}[circuit ee IEC]
+%     \draw (0,0) to[V, l=V$_\text{q}$, ] (0,4);
+%     \draw (2,4) to[R=$100\Omega$, -*] (2,2);
+%     \draw (2,2) to[D, l=D, *-*] (2,0);
+%     \draw (0,4) to[short, -*] (2,4);
+%     \draw (0,0) to[short, -*] (2,0);
+%     \draw (2,4) to[short, *-o] (4,4);
+%     \draw (2,2) to[short, *-o] (4,2);
+%     \draw (2,0) to[short, *-o] (4,0);
+%     \draw (4,4) node[anchor=west] {CH1};
+%     \draw (4,2) node[anchor=west] {CH2};
+%     \draw (4,0) node[anchor=west] {GND};
+%   \draw   (6,2) node[anchor=west] {KO};
+%     \draw (2,0) node[ground] {};
+
+%   \end{tikzpicture}
+%   \caption{Ersatzschaltbild bei hohen Frequenzen}
+% \end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \begin{circuitikz}[scale=1]\draw
+    (0,0) to[short, o-*] (1,0)
+    (1,0) to[short, *-] (1,1)
+    (5,0) to[short, *-o] (6,0)
+    (5,1) to[short, -*] (5,0)
+    (1,0) to[R=R, *-] (3,0)
+    (3,0) to[L=L, -*] (5,0)
+    (1,1) to[C=C, ] (5,1)
+    ;
+
+    % (0,0) node[anchor=east] {GND}
+    % (0,0) node[anchor=east] {GND}
+    % (0,0) to[short, o-*] (2,0)
+%     (0,0) to[V, l=V$_\text{q}$, ] (0,4)
+%     (2,4) to[R=$100\Omega$, -*] (2,2)
+%     (2,2) to[D, l=D, *-*] (2,0)
+%     (0,4) to[short, -*] (2,4)
+%     (0,0) to[short, -*] (2,0)
+%     (2,4) to[short, *-o] (4,4)
+%     (2,2) to[short, *-o] (4,2)
+%     (2,0) to[short, *-o] (4,0)
+%     (4,4) node[anchor=west] {CH1}
+%     (4,2) node[anchor=west] {CH2}
+%     (4,0) node[anchor=west] {GND}
+%     (6,2) node[anchor=west] {KO}
+%     (2,0) node[ground] {};
+  \end{circuitikz}
+  \caption{Ersatzschaltbild bei hohen Frequenzen}
+\end{figure}
