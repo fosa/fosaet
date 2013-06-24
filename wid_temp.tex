@@ -21,9 +21,35 @@
 \[ \Delta R = R_{20} \cdot \alpha \cdot \Delta \vartheta \]
 Falls $R_{20}$ nicht bekannt ist, kann mit $R_A$ bei $\vartheta_a$ und $\tau$ 
 die Temperaturabhängigkeit mit folgender Formel berechnet werden:  
-\[ R_\vartheta = R_A \frac{\tau + \vartheta}{\tau + \vartheta_A} \]
-Wobei 
-\[ \tau = \frac{1}{\alpha_20} - 20^{\circ}\text{C} \]
+\[ R_\vartheta = R_A \frac{\tau + \vartheta}{\tau + \vartheta_A} 
+\qquad \text{Wobei} 
+\qquad \tau = \frac{1}{\alpha_20} - 20^{\circ}\text{C} \]
+
+\subsubsection{Platintemperatursensoren}
+Zwischen $0^\circ$ und $100^\circ$ kann die Temperaturabhängigkeit linear 
+berechnet werden. 
+\[ \begin{array}{l}
+R_\vartheta = R_0 \cdot (1 + a \cdot \vartheta) \\
+a = 3.85 \cdot 10^{-3} \left[\frac{1}{K}\right] 
+\end{array} \]
+%
+Für höhere Temperaturen oder höhere Genauigkeit wird ein Polynom vom Grad 2 
+verwendet. 
+\[ \begin{array}{l}
+R_\vartheta = R_0 \cdot (1 + a \cdot \vartheta + b \cdot \vartheta^2) \\
+a = 3.9083 \cdot 10^{-3} \left[\frac{1}{K}\right] \\
+b = -5.775 \cdot 10^{-7} \left[\frac{1}{K^2}\right] 
+\end{array} \]
+%
+Für Temperaturen unter $0^\circ C$ wird ein Polynom vom Grad 4 verwendet. 
+\[ \begin{array}{l}
+R_\vartheta = R_0 \cdot (1 + a \cdot \vartheta + b \cdot \vartheta^2 
++ c \cdot (\vartheta - 100^\circ C) \cdot \vartheta^3) \\
+a = 3.9083 \cdot 10^{-3} \left[\frac{1}{K}\right] \\
+b = -5.775 \cdot 10^{-7} \left[\frac{1}{K^2}\right] \\
+c = -4.183 \cdot 10^{-12} \left[\frac{1}{K^3}\right] 
+\end{array} \]
+
 
 \subsubsection{Nichtlineare Temperaturabhängigkeit (PTC)}
 \[ R_N = 2 \cdot R_A \]
