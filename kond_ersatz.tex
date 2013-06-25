@@ -14,20 +14,16 @@
 %GNU General Public License for more details.
 %----------------------------------------
 
-\chapter{Bauteile}
-\newpage
-\input{wid}         % Widerstand
-\input{wid_spez}    % Spezifischer Widerstand
-\input{wid_idens}   % Stromdichte
-\input{wid_spann}   % Spannungsabhängigkeit
-\input{wid_freq}    % Frequenzabhängigkeit
-\input{wid_rausch}  % Rauschen
-\input{wid_ereihe}  % Widerstandsreihen, E-Reihen
-\input{wid_temp}    % Temperaturabhängigkeit von Widerständen
-\input{wid_vdr}     % Varistor
-
-\input{kond}        % Kondensator
-\input{kond_kap}    % Kapazität
-\input{kond_ener}   % Energie im Kondensator
-\input{kond_parser} % Parallel und Serieschaltung
-\input{kond_ersatz} % Ersatzschaltung Kondensator
+\subsection{Ersatzschaltung}
+\begin{figure}[h!]
+  \centering
+  \begin{circuitikz}[scale=1]\draw
+    (0,0) to[short, o-] (1,0)
+    (7,0) to[short, -o] (8,0)
+    (1,0) to[R=$R_C$, ] (3,0)
+    (3,0) to[L=$L_C$, ] (5,0)
+    (5,0) to[C=C, ] (7,0)
+    ;
+  \end{circuitikz}
+  \caption{Ersatzschaltung eines Kondensators}
+\end{figure}
