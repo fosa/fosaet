@@ -1,0 +1,44 @@
+% coding:utf-8
+
+%FOSAET, a LaTeX-Code for a electrical summary of basic electronics
+%Copyright (C) 2013, Daniel Winz, Ervin Mazlagic
+
+%This program is free software; you can redistribute it and/or
+%modify it under the terms of the GNU General Public License
+%as published by the Free Software Foundation; either version 2
+%of the License, or (at your option) any later version.
+
+%This program is distributed in the hope that it will be useful,
+%but WITHOUT ANY WARRANTY; without even the implied warranty of
+%MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+%GNU General Public License for more details.
+%----------------------------------------
+
+\subsection{Induktivität verschiedener Spulenformen}
+
+\subsubsection{Ringkernspule}
+\[ L = \frac{N^2 \cdot \mu_0 \cdot \mu_r \cdot A}{\ell_m} \]
+\[ \mu = \mu_0 \cdot \mu_r \]
+\begin{tabular}{@{}ll}
+  $\mu$:    & Permeabilität, megnetische Leitfähigkeit eines Stoffes \\
+  $\mu_0$:  & magnetische Feldkonstante für Vakuum \\
+            & $\mu_0 = 4 \cdot \pi \cdot 10^{-7} \left[\frac{Vs}{Am}\right]$ \\
+  $\mu_r$:  & relative Permeabilität, Permeabilitätszahl \\
+  $\ell_m$: & mittlere Feldlinienlänge \\
+  $A$:      & Kernquerschnittsfläche \\
+  $N$:      & Windungszahl
+\end{tabular}
+
+\subsubsection{Kreisringspule}
+\[ L = \mu \cdot R \cdot \left(\ln\left(\frac{R}{r}\right) + 0.08\right) \]
+\[ \mu = \mu_0 \qquad \text{in nichtmagnetischem Material (Luft)} \]
+\begin{tabular}{@{}ll}
+  $R$:  & Ringradius \\
+  $r$:  & Toroidradius 
+\end{tabular}
+
+\subsubsection{Zylinderspule}
+Verhältnis Länge - Durchmesser : $\ell \sim 5 \cdot D$:
+\[ L = \mu_0 \cdot \frac{N^2 \cdot D^2 \cdot \pi}{4 \cdot \ell} \]
+$\ell \sim D$:
+\[ L = \mu_0 \cdot \frac{N^2 \cdot D^2 \cdot \pi}{4 \cdot (\ell + 0.45 \cdot D)} \]
