@@ -1,0 +1,30 @@
+% coding:utf-8
+
+%FOSAET, a LaTeX-Code for a electrical summary of basic electronics
+%Copyright (C) 2013, Daniel Winz, Ervin Mazlagic
+
+%This program is free software; you can redistribute it and/or
+%modify it under the terms of the GNU General Public License
+%as published by the Free Software Foundation; either version 2
+%of the License, or (at your option) any later version.
+
+%This program is distributed in the hope that it will be useful,
+%but WITHOUT ANY WARRANTY; without even the implied warranty of
+%MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+%GNU General Public License for more details.
+%----------------------------------------
+
+\subsection{Kennlinie einer Diode}
+\[ I_D(v_D, \vartheta) = I_s \cdot \left(e^{\frac{v_d}{n \cdot V_T}} - 1\right) \]
+\[ V_T = \frac{k \cdot \vartheta}{q} \]
+\[ V_T~(25^\circ C) = 25.8 mV \]
+\begin{tabular}{@{}ll}
+  $I_s$:        & Sättigungsstrom \\
+                & (Diodentyp- und Temperaturabhängig) \\
+                & ($400 pA$ für A-, $3 fA$ für mA- Dioden) \\
+  $\vartheta$:  & Temperatur [$K$] \\
+  $k$:          & Bolzmann-Konstante, $k=1.38 \cdot 10^{-23} \frac{J}{K}$ \\
+  $q$:          & Elementarladung, $1.6 \cdot 10^{-19} C$ \\
+  $n$:          & Idealitätsfaktor, $n = 1-2$ \\
+                & ($n = 1$ typisch, Diodentyp abhängig)
+\end{tabular}
