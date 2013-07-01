@@ -15,3 +15,39 @@
 %----------------------------------------
 
 \section{Brückenschaltung}
+\begin{figure}[h!]
+  \centering
+  \begin{circuitikz}[scale=1]\draw
+    (1.5,6) to[short, o-*] (1.5,5)
+    (1.5,1) to[short, *-o] (1.5,0)
+    (0,5) to[short, ] (3,5)
+    (0,1) to[short, ] (3,1)
+    (0,5) to[R=$R_1$, ] (0,3)
+    (0,3) to[R=$R_2$, ] (0,1)
+    (3,5) to[R=$R_3$, ] (3,3)
+    (3,3) to[R=$R_4$, ] (3,1)
+    (0,3) to[R=$R_5$, *-*] (3,3)
+    ;
+  \end{circuitikz}
+  \caption{Brückenschaltung}
+\end{figure}
+
+\subsubsection{Abgeglichene Brückenschaltung}
+\[ \frac{R_1}{R_2} = \frac{R_3}{R_4} \]
+\[ U_5 = U_2 - U_4 = 0 \]
+\[ I_5 = 0 \]
+
+\subsubsection{Nicht abgegelichen ohne $R_5$}
+\[ U_5 = U_2 - U_4 = U_q \cdot \left( \left( \frac{R_2}{R_1 + R_2} \right) - 
+\left( \frac{R_4}{R_3 + R_4} \right) \right) \]
+
+\subsubsection{Nicht abgeglichen}
+\begin{scriptsize}
+\[ U_5 = U_q \cdot \frac{(R_2 \cdot R_3 - R_1 \cdot R_4) \cdot R_5}
+{R_5 \cdot (R_3 + R_4) \cdot (R_1 + R_2) 
++ R_1 \cdot R_3 \cdot R_4 + R_2 \cdot R_3 \cdot R_4 
++ R_1 \cdot R_2 \cdot R_3 + R_1 \cdot R_2 \cdot R_4} \]
+\[ I_5 = U_q \cdot \frac{R_2 \cdot R_3 - R_1 \cdot R_4}
+{R_5 \cdot (R_3 + R_4) \cdot (R_1 + R_2) 
++ R_3 \cdot R_4 \cdot (R_1 + R_2) + R_1 \cdot R_2 \cdot (R_3 + R_4)} \]
+\end{scriptsize}
