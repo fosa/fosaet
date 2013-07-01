@@ -1,0 +1,104 @@
+% coding:utf-8
+
+%FOSAET, a LaTeX-Code for a electrical summary of basic electronics
+%Copyright (C) 2013, Daniel Winz, Ervin Mazlagic
+
+%This program is free software; you can redistribute it and/or
+%modify it under the terms of the GNU General Public License
+%as published by the Free Software Foundation; either version 2
+%of the License, or (at your option) any later version.
+
+%This program is distributed in the hope that it will be useful,
+%but WITHOUT ANY WARRANTY; without even the implied warranty of
+%MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+%GNU General Public License for more details.
+%----------------------------------------
+
+\section{Quellenvereinfachung}
+Interessiert die Leistung an der Quelle nicht oder ist die Spannung an 
+Stromquellen oder der Strom durch Spannungsquellen nicht wichtig, können 
+Quellen wie folgt vereinfacht werden. 
+\begin{center}
+\begin{minipage}[c]{0.3\textwidth}
+\begin{circuitikz}[scale=1]\draw
+  (0,5) to[V=$U_q$, o-] (0,3)
+  (0,3) to[I=$I_q$, -o] (0,1)
+  ;
+\end{circuitikz}
+\end{minipage}
+\begin{minipage}[c]{0.1\textwidth}
+\Huge$\Rightarrow$
+\end{minipage}
+\begin{minipage}[c]{0.3\textwidth}
+\begin{circuitikz}[scale=1]\draw
+  (2,4) to[I=$I_q$, o-o] (2,2)
+  ;
+\end{circuitikz}
+\end{minipage}
+\end{center}
+%
+\begin{center}
+\begin{minipage}[c]{0.3\textwidth}
+\begin{circuitikz}[scale=1]\draw
+  (1,4) to[short, o-*] (1,3)
+  (0,3) to[short, ] (2,3)
+  (0,1) to[short, ] (2,1)
+  (1,1) to[short, *-o] (1,0)
+  (0,3) to[V=$U_q$, ] (0,1)
+  (2,3) to[I=$I_q$, ] (2,1)
+  ;
+\end{circuitikz}
+\end{minipage}
+\begin{minipage}[c]{0.1\textwidth}
+\Huge$\Rightarrow$
+\end{minipage}
+\begin{minipage}[c]{0.3\textwidth}
+\begin{circuitikz}[scale=1]\draw
+  (4,3) to[V=$U_q$, o-o] (4,1)
+  ;
+\end{circuitikz}
+\end{minipage}
+\end{center}
+%
+\begin{center}
+\begin{minipage}[c]{0.3\textwidth}
+\begin{circuitikz}[scale=1]\draw
+  (0,5) to[R=$R$, o-] (0,3)
+  (0,3) to[I=$I_q$, -o] (0,1)
+  ;
+\end{circuitikz}
+\end{minipage}
+\begin{minipage}[c]{0.1\textwidth}
+\Huge$\Rightarrow$
+\end{minipage}
+\begin{minipage}[c]{0.3\textwidth}
+\begin{circuitikz}[scale=1]\draw
+  (2,4) to[I=$I_q$, o-o] (2,2)
+  ;
+\end{circuitikz}
+\end{minipage}
+\end{center}
+%
+\begin{center}
+\begin{minipage}[c]{0.3\textwidth}
+\begin{circuitikz}[scale=1]\draw
+  (1,4) to[short, o-*] (1,3)
+  (0,3) to[short, ] (2,3)
+  (0,1) to[short, ] (2,1)
+  (1,1) to[short, *-o] (1,0)
+  (0,3) to[V=$U_q$, ] (0,1)
+  (2,3) to[R=$R$, ] (2,1)
+  ;
+\end{circuitikz}
+\end{minipage}
+\begin{minipage}[c]{0.1\textwidth}
+\Huge$\Rightarrow$
+\end{minipage}
+\begin{minipage}[c]{0.3\textwidth}
+\begin{circuitikz}[scale=1]\draw
+  (4,3) to[V=$U_q$, o-o] (4,1)
+  ;
+\end{circuitikz}
+\end{minipage}
+\end{center}
+%
