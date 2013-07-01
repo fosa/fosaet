@@ -27,7 +27,10 @@
 \end{figure}
 
 \subsubsection{Kondensator}
-\[ Z_c = \frac{1}{j \cdot \omega \cdot C} = \frac{1}{j \cdot 2 \pi \cdot f \cdot C} \]
+\[ Z_C = \frac{1}{j \cdot \omega \cdot C} 
+= \frac{1}{j \cdot 2 \cdot \pi \cdot f \cdot C} \]
+\[ x_C = Im(Z_C) = -\frac{1}{\omega \cdot C} 
+= -\frac{1}{2 \cdot \pi \cdot f \cdot C} \]
 \[ u_C = \left( \frac{1}{C} \cdot \int i_C ~ dt \right) + U_C(0) \]
 \[ i_C = C \cdot \frac{du_C}{dt} \]
 \begin{figure}[h!]
@@ -38,7 +41,8 @@
 \end{figure}
 
 \subsubsection{Spule}
-\[ Z_L = j \cdot \omega \cdot L = j \cdot 2 \pi \cdot f \cdot L \]
+\[ Z_L = j \cdot \omega \cdot L = j \cdot 2 \cdot \pi \cdot f \cdot L \]
+\[ x_L = Im(Z_L) = \omega \cdot L = 2 \cdot \pi \cdot f \cdot L \]
 \[ u_L = L \cdot \frac{di_L}{dt} \]
 \[ i_L = \left( \frac{1}{L} \cdot \int u_L ~ dt \right) + I_L(0) \]
 \begin{figure}[h!]
