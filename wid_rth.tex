@@ -1,0 +1,43 @@
+% coding:utf-8
+
+%FOSAET, a LaTeX-Code for a electrical summary of basic electronics
+%Copyright (C) 2013, Daniel Winz, Ervin Mazlagic
+
+%This program is free software; you can redistribute it and/or
+%modify it under the terms of the GNU General Public License
+%as published by the Free Software Foundation; either version 2
+%of the License, or (at your option) any later version.
+
+%This program is distributed in the hope that it will be useful,
+%but WITHOUT ANY WARRANTY; without even the implied warranty of
+%MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+%GNU General Public License for more details.
+%----------------------------------------
+
+\section{Thermisches Ersatzschaltbild}
+\begin{figure}[h!]
+  \centering
+  \begin{circuitikz}[scale=1]\draw
+%     (0,0) to[short, o-] (0,0)
+%     (0,0) to[short, -o] (0,0)
+    (0,6) to[R=$R_{th_{JC}}$, o-o] (0,4)
+    (0,4) to[R=$R_{th_{CH}}$, o-o] (0,2)
+    (0,2) to[R=$R_{th_{HA}}$, o-o] (0,0)
+    (0.4,6) node {J}
+    (0.4,4) node {C}
+    (0.4,2) node {H}
+    (0.4,0) node {A}
+    ;
+  \end{circuitikz}
+  \caption{Thermisches Ersatzschaltbild}
+\end{figure}
+Äquivalent zu Ohmschem Gesetz: 
+\[ \Delta\vartheta = R_{th} \cdot P_v \]
+\[ R_{th} = \frac{\ell}{\lambda \cdot A} \]
+\begin{tabular}{@{}ll}
+  $J$: & Junction $\rightarrow$ Sperrschicht \\
+  $C$: & Case $\rightarrow$ Gehäuse \\
+  $H$: & Heatsink $\rightarrow$ Kühlkörper \\
+  $A$: & Ambient $\rightarrow$ Umgebung (Achtung! Meist innerhalb Gerät) \\
+  $\lambda$: & Thermische Leitfähigkeit
+\end{tabular}
