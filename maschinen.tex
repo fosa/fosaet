@@ -59,4 +59,92 @@ U_a = (c \cdot \phi \cdot \omega_m) + (R_a \cdot I_a) \\\\
 	= \frac{U_a}{c \cdot \phi} - \frac{R_a}{(c \cdot \phi)^2} \cdot M
 \end{array} \]
 
+\newpage
+
+\section{Serieerregte DC-Maschine}\label{sec:dc-motor-serie}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=\schscale]{dc-motor-serie.pdf}
+\caption{Ersatzschaltbild der serieerregten DC-Maschine}
+\label{sch:dc-maschine-serie}
+\end{figure}
+
+\[ I_e = I_a \]
+\[ \phi = \frac{L_e}{N_e} \cdot I_e = \frac{L_e}{N_e} \cdot I_a \]
+\[ \omega_m = \frac{U_a - (R_a + R_e) \cdot I_a}{c \cdot \frac{L_e}{N_e} \cdot I_a} \]
+\[ M_{el} = c \cdot \frac{L_e}{N_e} \cdot I_a^2 \]
+\[ U_a = (R_a + R_e) \cdot I_{e,a} + U_i + (L_a + L_e) \cdot \frac{d I}{d t} \]
+\[ U_i = c \cdot \frac{L_e}{N_e} \cdot I \cdot \omega_m \]
+\[ \omega_m = \frac{U_a - (R_a + R_e) \cdot I}{c \cdot \frac{L_e}{N_e} \cdot I} \]
+\[ \omega_m \approx \frac{U_a}{c \cdot \frac{L_e}{N_e} \cdot \sqrt{\frac{N_e \cdot M}{c \cdot L_e}}} 
+	= \frac{U_a}{\sqrt{c \cdot \frac{L_e}{N_e}}} \cdot M \]
+
+\newpage
+
+\section{Universalmotor}
+
+Diese elektrische Maschine kann sowohl mit DC als auch mit AC betrieben
+werden ohne Veränderungen vorzunehmen, deshalb werden die Doppelnamen 
+\textit{Serieerregte Gleichstrommaschine} und 
+\textit{Einphasen-Reihenschluss"-motor} benutzt.
+
+Wird die Maschine mit DC betrieben, so gelten die Formeln aus dem Kapitel
+\ref{sec:dc-motor-serie}. Wird die Maschine mit AC betrieben, so müssen die
+folgenden Formeln benutzt werden.
+
+\[ \underline{U} = (R_a + R_e) \cdot \underline{I} + j \cdot \omega \cdot (L_a + L_e) \cdot \underline{I} + \underline{U_i} \]
+\[ \underline{U_i} = c \cdot \phi \cdot \omega_m = c_1 \cdot \underline{I} \cdot \omega_m \]
+\[ |\underline{U^2}| = (|U_i| + R \cdot |\underline{I}|)^2 + (\omega \cdot L \cdot |\underline{I}|)^2, \quad U_i = c_1 \cdot |\underline{I}| \cdot \omega_m \]
+
+\begin{figure}[h!]
+\centering
+\caption{Zeigerdiagramm des Universalmotors bei AC-Betrieb}
+\includegraphics[scale=\schscale]{dc-motor-serie-plot1.pdf}
+\label{fig:universalmotor-zeiger}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
