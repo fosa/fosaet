@@ -14,4 +14,19 @@
 %GNU General Public License for more details.
 %----------------------------------------
 
-\subsection{Subtrahierer}
+\subsection{Subtrahierer / Differenzverstärker}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=\schscale]{op_sub.pdf}
+	\caption{Subtrahierer / Differenzverstärker}
+	\label{sch:op-sub}
+\end{figure}
+\[ U_a = \frac{(R_1 + R_2) \cdot R_4}{(R_3 + R_4) \cdot R_1} \cdot U_{e+} 
+- \frac{R_2}{R_1} \cdot U_{e-} \]
+Wenn $R_1 = R_3$ und $R_2 = R_4$: 
+\[ U_a = \frac{R_2}{R_1} \cdot (U_{e+} - U_{e-}) \]
+Wenn $R_1 = R_2 = R_3 = R_4$: 
+\[ U_a = U_{e+} - U_{e-} \]
+\[ R_{e+} = R_3 + R_4 \]
+\[ R_{e-} = R_1 \]
+\[ R_a = 0 \]
