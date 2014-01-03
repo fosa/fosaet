@@ -30,3 +30,32 @@
 
 \subsection{Blindleistung $Q$}
 \[ Q = U_{eff} \cdot I_{eff} \cdot sin(\varphi) \]
+
+\section{Leistung bei nicht sinusförmigen Grössen}
+Momentane Leistung
+\[ p(t) = u \cdot i \]
+Wirkleistung
+\[ P = \frac{1}{T} \int_{0}^{T} p(t) dt 
+= \frac{1}{T} \int_{0}^{T} u \cdot i ~ dt \]
+Wirkleistung mit Fourierreihe
+\[ P = \sum_{v=0}^{\infty} \frac{\hat{u}_v 
+\cdot \hat{i}_v}{2} \cdot \cos(\varphi_v) \]
+\[ \varphi_v = \varphi_{u_v} - \varphi_{i_v} 
+\qquad \text{mit gleichen Frequenzen von $u$ und $i$} \]
+Scheinleistung
+\[ S = U \cdot I \]
+Leistungsfaktor
+\[ \lambda = \frac{P}{S} \]
+Blindleistung
+\[ Q^2 = S^2 - P^2 \]
+Spezialfall: $u = \hat{U} \cdot \sin(\omega_1 \cdot t) ~ \text{und} ~ i 
+= I_{AV} + \sum\limits_{v=1}^{\infty} \hat{I}_v \cdot 
+\sin(v\cdot \omega_1 \cdot t + \varphi_v)$
+\[ \begin{array}{@{}ll}
+P = U \cdot I \cdot \cos(\varphi_1) \\
+\varphi_1 = \varphi_u - \varphi_{i_1} \\
+Q_1 = U \cdot I_1 \cdot \sin(\varphi_1) &\text{Grundschwingungsblindleistung} \\
+S_1 = U \cdot I_1 &\text{Grundschwingungsscheinleistung} \\
+S^2 = P^2 + {Q_1}^2 + D^2 \\
+D = {Q_2} + {Q_3} + \dots + {Q_\infty} & \text{Verzerrungsblindleistung} \\
+\end{array}  \]
