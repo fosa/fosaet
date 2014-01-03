@@ -7,3 +7,7 @@
 fosaet_main.pdf
 *.swp
 
+
+fosaet_main.synctex.gz
+
+test.tex
