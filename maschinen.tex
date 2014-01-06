@@ -104,47 +104,68 @@ folgenden Formeln benutzt werden.
 \label{fig:universalmotor-zeiger}
 \end{figure}
 
+\section{Synchronmaschine}
+\[ \omega_{mech} = \omega_{D_1} = \frac{\omega_1}{p} \]
+\[ p\text{: Polpaarzahl} \]
+\[ \omega_1 = f_1 \cdot 2 \pi \qquad \text{elektrischer Kreis} \]
+$\qquad$ Index-Bedeutung: $1$: Statorgrössen $D$: Drehfeld
+\[ n = \frac{60 \cdot \omega_{mech}}{2 \pi} \]
+Beispiel $f_1 = 50 Hz$: 
+\[ \begin{array}{@{}c|c}
+p & n    \\
+\hline
+1 & 3000 \\
+2 & 1500 \\
+3 & 1000 \\
+4 & 750  \\
+5 & 500  \\
+\end{array} \]
 
+\subsection{Ersatzschaltung}
+Die folgenden Berechnungen basieren auf folgenden Vereinfachungen: 
+\begin{itemize}
+  \item stationärer Betrieb, d.h. $\omega_1 = p \cdot \omega_{mech}$
+  \item $R = 0$
+  \item symmetrisch $\rightarrow$ einphasiges Ersatzschaltbild
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Hier Bild einfügen
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\[ x_d = \underbrace{x_a}_{\text{Hauptreaktanz}} + \underbrace{x_{\delta}}
+_{\text{Streureaktanz}}\qquad \text{Reaktanzen} \]
+$\underline{U_1}$: Phasenspannung \\
+$\underline{U_p}$: Polradspannung
 
+\subsection{Inselbetrieb}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Hier Bild einfügen
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\[ \underline{U_1} + \Delta \underline{U} = \underline{U_p} \]
+\[ -\underline{I_1} \cdot \underline{Z} + j x_d \cdot \underline{I_1} 
+= \underline{U_p} \]
+Leistungen: $P, Q$: Drehstromleistung
+\[ P = 3 \cdot Re(\underline{U_1} \cdot (-\underline{I_1})^2) \]
+\[ P = 3 \cdot \Re(\underline{U_1} \cdot (-\underline{I_1})^2) \]
+\[ Q = 3 \cdot Im(\underline{U_1} \cdot (-\underline{I_1})^2) \]
+\[ Q = 3 \cdot \Im(\underline{U_1} \cdot (-\underline{I_1})^2) \]
 
+\subsection{Verbundbetrieb}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Hier Bild einfügen
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\[ \underline{U_1} = \underbrace{\underline{I_1} \cdot j x_d}_{\Delta U} + U_p \]
 
+\subsection{Polradwinkel $\vartheta$}
+\[ \vartheta = \varphi U_1 - \varphi_{U_{p_{U_1}}} \]
+\[ \begin{array}{@{}lll}
+\vartheta > 0 & \rightarrow & \text{Motorbetrieb} \\
+\vartheta < 0 & \rightarrow & \text{Generatorbetrieb} \\
+\vartheta = 0 & \rightarrow & \text{Leerlauf} \\
+\end{array} \]
 
+\subsection{Drehmoment}
+\[ M = \frac{3 \cdot p \cdot U_1 \cdot U_p}{\omega_1 \cdot x_d} 
+\cdot \sin{\vartheta} \]
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+\subsection{Mechanische Leistung}
+\[ P_{mech} = \omega_{mech} \cdot M \]
