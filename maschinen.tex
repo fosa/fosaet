@@ -169,3 +169,70 @@ Leistungen: $P, Q$: Drehstromleistung
 
 \subsection{Mechanische Leistung}
 \[ P_{mech} = \omega_{mech} \cdot M \]
+
+\section{Asynchronmaschine}
+Stator: 
+\[ \omega_1 = 2 \pi \cdot f_1 \]
+\[ \omega_{D_1} = \frac{\omega_1}{p} \qquad p\text{: Polpaarzahl} \]
+Synchrone Drehzahl: 
+\[ n_{syn} = \frac{60 \cdot \omega_{D_1}}{2 \pi} = \frac{60 \cdot f_1}{p} \]
+Rotor: 
+\[ \omega_{mech} = \frac{2 \pi \cdot n}{60} \]
+\[ \omega_{D_2} = \omega_{D_1} - \omega_{mech} = \frac{\omega_{D_2}}{p} 
+\qquad n\text{: Rotordrehzahl} \]
+Schlupf: 
+\[ S = \frac{n_{syn} - n}{n_{syn}} = \frac{\omega_2}{\omega_1} 
+\qquad \text{$\omega_2$: el. Kreisfrequenz der Rotorgrössen $U_2, \varphi_2$} \]
+Im Rotor induzierte Spannung: 
+\[ \begin{array}{@{}l@{}l@{}l@{}}
+U_{n_1} = N_1 \cdot \frac{d \phi_n}{d t} & \Rightarrow 
+& U_{n_1} = \omega_1 \cdot N_1 \cdot \phi_n \\
+&& U_{n_2} = \omega_2 \cdot N_2 \cdot \phi_n \\
+\end{array} \]
+\[ ü = \frac{N_1}{N_2} \]
+\[ U_{n_2} = N_2 \cdot \omega_2 \cdot \frac{U_{n_1}}{N_1 \cdot \omega_1} 
+= \frac{S \cdot U_{n_1}}{ü} \]
+\[ \begin{array}{@{}lll}
+S < 0     & \rightarrow & \text{Übersynchron} \\
+S = 0     & \rightarrow & \text{Synchron} \\
+0 < S < 1 & \rightarrow & \text{Untersynchron} \\
+S = 1     & \rightarrow & \text{Stillstand} \\
+S > 1     & \rightarrow & \text{Gegenlauf} \\
+\end{array} \]
+\subsection{Leistungen}
+(ideales Modell, kein magn. Strom, streuungsfrei)\\
+Stator: 
+\[ P_1 = 3 \cdot U_{n_1} \cdot I_1 \]
+Luftspalt: 
+\[ P_\delta = P_1 - \underbrace{3 \cdot R_1 \cdot {I_1}^2 - P_{Fe}}_
+{\text{Falls Statorverlust}} \]
+Rotor: 
+\[ P_2 = 3 \cdot U_{n_2} \cdot I_2 
+= 3 \cdot S \cdot U_{n_1} \cdot I_1 = S \cdot P_\delta \]
+\subsection{Betriebsarten}
+Motor: 
+\[ \begin{array}{llllll}
+0 < S < 1 
+  & 0 < n < n_{syn} 
+  & P_\delta > 0 
+  \\ 0 < P_{mech} < P_1 
+  & 0 < P_2 < P_\delta 
+  & \eta = \frac{P_{mech}}{P_1} < 1 - S
+\end{array} \]
+Generator: 
+\[ \begin{array}{llllll}
+S < 0 
+  & n > n_{syn} 
+  & P_\delta < 0 
+  \\ P_{mech} < 0 
+  & P_2 > 0
+  & \eta = \frac{P_1}{P_{mech}} < \frac{1}{1 - S}
+\end{array} \]
+Gegenlauf: 
+\[ \begin{array}{llllll}
+S > 1 
+  & n < 0
+  & P_\delta > 0 
+  & P_{mech} > 0
+  & P_2 > 0
+\end{array} \]
