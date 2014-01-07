@@ -14,20 +14,17 @@
 %GNU General Public License for more details.
 %----------------------------------------
 
-\newpage
-\section{Transistor}
-\subsection{DC Grosssignalverhalten}
 
-\[ I_C \approx I_S \cdot e^{\frac{U_{BE}}{U_T}}\]
-\[ U_T= \frac{k_T}{q_0} \]
-\[ U_T~(25^\circ C) = 25.8 mV \]
+\subsection{Verhalten am Ausgang}
+
+Begrenzung der maximalen Ausgangsspannung durch die Slew Rate bei Sinussignal.
+
+\[ f_{FPB} = \frac{SR}{2 \cdot \pi \cdot \^{u}_{a max} } \]
 
 \begin{tabular}{@{}ll}
-  $I_s$:        & Sättigungsstrom \\
-                
-  $U_T$:	    & "Temperaturspannung" \\
-  $k$:          & Bolzmann-Konstante, $k=1.38 \cdot 10^{-23} [\frac{J}{K}]$ \\
-  $T$:          & absolute Temperatur ($^\circ$C + 273,16 K) \\
-  $q0$:         & Elementarladung = 1.602E-19As \\
+
+  $f_{FPB}$:	          & Full Power Bandwidth Frequenz \\
+  $SR$:                   & Slew Rate (Anstiegsgeschwindigkeit) \\   
+  $\^{u}_{a max}$:        & maximale Ausgangsspannung \\
                 
 \end{tabular}
