@@ -243,3 +243,24 @@ S > 1
   & P_{mech} > 0
   & P_2 > 0
 \end{array} \]
+Induzierte Spannung im Rotor
+\[ U_{n_2} = \frac{S}{ü} \cdot U_{n_1} = S \cdot \underbrace{U_{n_{2_0}}}_
+{\text{Stillstandsspannung}} \]
+\[ S = frac{\omega_2}{\omega_1} \]
+\[ u = \frac{N_1}{N_2} \]
+\[ I_2 = \frac{S \cdot U_{n_{2_0}}}{R_2} = U_{n_{2_0}} \cdot 
+\frac{1}{\underbrace{\frac{R_2}{S}}_{\text{Schlupfabhängiger Widerstand}}} \]
+Aufspaltung von $\frac{R_2}{S}$\\
+$R_2$: Rotorwiderstand (ohmscher Widerstand)\\
+$R_s$: Laufwiderstand (Modell mechanische Energiewandlung)
+\[ 3 \cdot {I_2}^2 \cdot R_s \hat{=} P_{mech} 
+\qquad \begin{array}{l}>0,~\text{Motor}\\<0,~\text{Generator}\end{array} \]
+\[ R_2 + R_s = \frac{R_2}{S} \rightarrow R_s = \frac{R_2 \cdot (1 - S)}{S} \]
+
+\subsection{Drehmoment}
+\[ M_{mech} = \frac{P_{mech}}{\omega_{mech}} 
+= \frac{3 \cdot {I_2}^2 \cdot R_s}{\omega_{mech}} \]
+\[ P_{mech} = \frac{3 \cdot P}{\omega_1} \cdot 
+\frac{{U_1}^2}{\left(R_1 + \frac{R_2}{S}\right)^2 + 
+(\omega_1 \cdot L_{1_\sigma} + \omega_2 \cdot L_{2_\sigma})^2} \cdot 
+\frac{{R_2}^2}{S} \]
