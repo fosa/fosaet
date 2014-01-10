@@ -1,0 +1,37 @@
+% coding:utf-8
+
+%FOSAET, a LaTeX-Code for a electrical summary of basic electronics
+%Copyright (C) 2013, Daniel Winz, Ervin Mazlagic
+
+%This program is free software; you can redistribute it and/or
+%modify it under the terms of the GNU General Public License
+%as published by the Free Software Foundation; either version 2
+%of the License, or (at your option) any later version.
+
+%This program is distributed in the hope that it will be useful,
+%but WITHOUT ANY WARRANTY; without even the implied warranty of
+%MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+%GNU General Public License for more details.
+%----------------------------------------
+
+\subsection{Aktiver Bandpass 2. Ordnung}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=\schscale]{op_bp_o2.pdf}
+	\caption{IAktiver Bandpass 2. Ordnung}
+	\label{sch:op-bp-o2}
+\end{figure}
+\[ \frac{- H \cdot \omega_0 \cdot s}
+{s^2 + \alpha \cdot \omega_0 \cdot s  + {\omega_0}^2} \]
+\[ \frac{V_{out}}{V_{in}} = \frac{- s \cdot \frac{1}{R_1 \cdot C_4}}
+{s^2 + s \cdot \frac{C_3 + C_4}{C_3 \cdot C_4 \cdot R_5} + 
+\frac{1}{R_5 \cdot C_3 \cdot C_4} \cdot 
+\left(\frac{1}{R_1} + \frac{1}{R_2}\right)} \]
+\[  \alpha = \frac{1}{Q}\]
+\subsubsection{Dimensionierung}
+\[ C_3 \text{ wählen} \]
+\[ k = 2 \pi \cdot f_0 \cdot C_3 \]
+\[ C_4 = C_3 \]
+\[ R_1 = \frac{1}{H \cdot k} \]
+\[ R_2 = \frac{1}{(2 \cdot Q - H) \cdot k} \]
+\[ R_5 = \frac{2 \cdot Q}{k} \]
