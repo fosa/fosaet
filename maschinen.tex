@@ -244,7 +244,7 @@ S > 1
 Induzierte Spannung im Rotor
 \[ U_{n_2} = \frac{S}{ü} \cdot U_{n_1} = S \cdot \underbrace{U_{n_{2_0}}}_
 {\text{Stillstandsspannung}} \]
-\[ S = frac{\omega_2}{\omega_1} \]
+\[ S = \frac{\omega_2}{\omega_1} \]
 \[ u = \frac{N_1}{N_2} \]
 \[ I_2 = \frac{S \cdot U_{n_{2_0}}}{R_2} = U_{n_{2_0}} \cdot 
 \frac{1}{\underbrace{\frac{R_2}{S}}_{\text{Schlupfabhängiger Widerstand}}} \]
@@ -276,8 +276,8 @@ $R_s$: Laufwiderstand (Modell mechanische Energiewandlung)
         $L_n = \infty$
 \end{itemize}
 \[ U_1 = N_1 \cdot \frac{d \phi}{d t} \qquad U_2 = N_2 \cdot \frac{d \phi}{d t} \]
-\[ \frac{U_1}{U_2} = \frac{N_1}{N_2} = \frac{1}{ü} \qquad ü:\text{ Übersetzungsverhältnis} \]
-
+\[ \frac{U_1}{U_2} = \frac{N_1}{N_2} = \frac{1}{ü} 
+\qquad ü:\text{ Übersetzungsverhältnis} \]
 \[ R_2' = ü^2 \cdot R_2 \]
 
 \subsection{Realer Transformator}
@@ -288,14 +288,19 @@ $R_s$: Laufwiderstand (Modell mechanische Energiewandlung)
         (Wirbelstromverluste, Hystereseverluste (Fläche der Hysterese)) \\
         $R_{Fe} = f(U, f, \dots), $ Typ $P_{Fe} = 1 \dots 10 \frac{W}{kg}$
   \item Streuung: \\
-        $\phi_1 \neq \phi_2$ \\
-        Flussanteile ohne gegenseitige Kopplung 
+        $\phi_1 \neq \phi_2$ (Flussanteile ohne gegenseitige Kopplung)
   \item Magnetisierungsstrom: \\
         $L_{n_1} 
         = \mu_0 \cdot \mu_r \cdot \frac{A_{Fe}}{\ell_{Fe}} \cdot {N_1}^2$
 \end{itemize}
 
 \subsection{T-Ersatzschaltbild}
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=\schscale]{trafo-t-ersatz.pdf}
+% \caption{T-Ersatzschaltbild eines Transformators}
+\label{sch:trafo-t-ersatz}
+\end{figure}
 \[ R_2' = R_2 \cdot ü^2 \]
 \[ X_{\delta_2}' = \cdot X_{\delta_2} \cdot ü^2 \]
 \[ U_2' = U_2 \cdot ü \]
@@ -303,10 +308,21 @@ $R_s$: Laufwiderstand (Modell mechanische Energiewandlung)
 
 \subsection{Parameterbestimmung}
 Kurzschluss: 
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=\schscale]{trafo-param-short.pdf}
+% \caption{Paramaterbestimmung bei Kurzschluss}
+\label{sch:trafo-param-short}
+\end{figure}
 \[ R_1' = R_1 + R_2 \cdot ü^2 \]
 \[ X_{\delta_1}' = X_{\delta_1} + X_{\delta_2} \cdot ü^2 \]
 \[ U_{K_r} = \frac{U_K}{U_{1_N}} \cdot 100 \% 
 \qquad \text{relative Kurzschlussspannung} \]
-\[ U_K << U_{1_N}  \]
-\[ X_{U_1}, R_{Fe} \text{ vernachlässigt} \]
+\[ U_K << U_{1_N} \qquad X_{U_1}, R_{Fe} \text{ vernachlässigt} \]
 Leerlauf: 
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=\schscale]{trafo-param-open.pdf}
+% \caption{Paramaterbestimmung im Leerlauf}
+\label{sch:trafo-param-open}
+\end{figure}
