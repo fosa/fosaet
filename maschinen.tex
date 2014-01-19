@@ -394,7 +394,8 @@ L-Glättung:
 C-Glättung: 
 \[ \begin{array}{@{}l@{}l}
 U_{2_\alpha} = U_1 \cdot \sqrt{2} & \qquad (0^\circ < \alpha < 90^\circ) \\\\
-U_{2_\alpha} = U_1 \cdot \sqrt{2} \cdot \sin(\alpha) & \qquad (90^\circ < \alpha < 180^\circ) \\
+U_{2_\alpha} = U_1 \cdot \sqrt{2} \cdot \sin(\alpha) 
+& \qquad (90^\circ < \alpha < 180^\circ) \\
 \end{array} \]
 
 \subsection{Dreiphasige Brückenschaltung}
@@ -410,7 +411,8 @@ Ströme bei Stromglättung ($L \to \infty$)
 
 \section{Verluste im Halbleiter}
 Leitender Zustand: 
-\[ P_{V_{Leit}} = \frac{1}{T} \int\limits_{0}^{T} u \cdot i ~dt = U_D \cdot I_{Av} + r_D \cdot I^2 \]
+\[ P_{V_{Leit}} = \frac{1}{T} \int\limits_{0}^{T} u \cdot i ~dt 
+= U_D \cdot I_{Av} + r_D \cdot I^2 \]
 \begin{tabular}{ll}
 $U_D$: & Schleusenspannung \\
 $r_D$: & differentieller Widerstand \\
@@ -419,3 +421,20 @@ Schaltverluste:
 \[ E_{ein} = \int\limits_0^{t_{ein}} u \cdot i ~ dt 
 \qquad E_{aus} = \int\limits_0^{t_{aus}} u \cdot i ~ dt \]
 \[ P_{V_{Schalt}} = (E_{ein} + E_{aus}) \cdot f \]
+
+\section{Wechselrichter}
+Zweipunkt-Betrieb $\to$ nur $f$ steuerbar\\
+Dreipunkt-Betrieb $\to$ $f$ und $\alpha$ steuerbar\\\\
+Grundfrequenztaktung: 
+\[ \hat{U}_{a_1} = \frac{4}{\pi} U_{DC} \cdot \cos(\alpha) 
+\qquad \text{Grundschwingung $\omega_1 = 2 \pi f$} \]
+Oberschwingungen: 
+\[ \hat{U}_{a_v} = \frac{4}{\pi} U_{DC} \cdot \frac{1}{v} \cdot \cos(\alpha) 
+\qquad v = 3, 5, 7, \dots \]
+
+\subsection{Wechselrichter am AC Netz}
+Vereinfachte Betrachtung: Nur Grundschwingung 
+$U_a = \hat{U}_{a_1} \cdot \sin(\omega t + \varphi)$
+\[ P \to Re(U_{1_N} \cdot I^*) \]
+\[ Q \to Im(U_{1_N} \cdot I^*) \]
+\[ U_{1_N} = \hat{U}_{1_N} \cdot \sin(\omega t) \]
