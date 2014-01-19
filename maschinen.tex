@@ -326,3 +326,23 @@ Leerlauf:
 % \caption{Paramaterbestimmung im Leerlauf}
 \label{sch:trafo-param-open}
 \end{figure}
+
+\section{Abwärtssteller}
+Vereinfachungen: 
+\begin{itemize}
+  \item periodischer Betrieb
+  \item Schaltfrequenz $f: \qquad\frac{L}{R} \gg T = \frac{1}{f} 
+        \qquad \frac{1}{2 \pi \cdot \sqrt{L \cdot C}} \ll f$
+  \item keine Verluste
+\end{itemize}
+Schalter geschlossen: 
+\[ U_L = U_1 - U_{C2_{Av}} \]
+\[ \frac{d i_z}{d t} = \frac{U_1 - U_{C2_{Av}}}{L} \]
+Schalter offen: 
+\[ U_L = - U_{C2_{Av}} \]
+\[ \frac{d i_z}{d t} = \frac{- U_{C2_{Av}}}{L} \]
+\[ a = \frac{T_{ein}}{T} \]
+\[ U_{2_{Av}} = a \cdot U_1 \]
+\[ I_{1_{Av}} = a \cdot I_{2_{Av}} \qquad (P_1 = P_2) \]
+\[ a = \frac{U_{2_{Av}}}{U_{1_{Av}}} \]
+
