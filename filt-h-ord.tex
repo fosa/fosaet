@@ -40,3 +40,63 @@ Tschebyscheff Filter
 {\frac{1}{{A_{max}}^2} - 1}}\right)}
 {\arccosh\left(\dfrac{f_s}{f_g}\right)} \]
 
+\subsection{Bestimmen der Koeffizienten}
+\begin{table}[h!]
+\[ \begin{array}{@{}lcccccccc}
+\rowcolor{white} n & f_{0_1}& Q_1   & f_{0_2}   & Q_2   & f_{0_3}   & Q_3   & f_{0_4}   & Q_4   \\
+\rowcolor{lgray} 2 & 1.000  & 0.707 &           &       &           &       &           &       \\
+\rowcolor{white} 3 & 1.000  & 1.000 & 1.000     &       &           &       &           &       \\
+\rowcolor{lgray} 4 & 1.000  & 0.541 & 1.000     & 1.306 &           &       &           &       \\
+\rowcolor{white} 5 & 1.000  & 0.618 & 1.000     & 1.620 & 1.000     &       &           &       \\
+\rowcolor{lgray} 6 & 1.000  & 0.518 & 1.000     & 0.707 & 1.000     & 1.932 &           &       \\
+\rowcolor{white} 7 & 1.000  & 0.555 & 1.000     & 0.802 & 1.000     & 2.247 & 1.000     &       \\
+\rowcolor{lgray} 8 & 1.000  & 0.510 & 1.000     & 0.601 & 1.000     & 0.900 & 1.000     & 2.563 \\
+\end{array} \]
+\caption{Filterkoeffizienten für Butterworth, $A_{max} = 3 dB$}
+\label{tab:filt-coeff-butt}
+\end{table}
+
+\begin{table}[h!]
+\[ \begin{array}{@{}lcccccccc}
+\rowcolor{white} n & f_{0_1}& Q_1   & f_{0_2}   & Q_2   & f_{0_3}   & Q_3   & f_{0_4}   & Q_4   \\
+\rowcolor{lgray} 2 & 1.274 & 0.577  &           &       &           &       &           &       \\
+\rowcolor{white} 3 & 1.453 & 0.691  & 1.327     &       &           &       &           &       \\
+\rowcolor{lgray} 4 & 1.419 & 0.522  & 1.591     & 0.806 &           &       &           &       \\
+\rowcolor{white} 5 & 1.561 & 0.564  & 1.760     & 0.917 & 1.507     &       &           &       \\
+\rowcolor{lgray} 6 & 1.606 & 0.510  & 1.691     & 0.611 & 1.907     & 1.023 &           &       \\
+\rowcolor{white} 7 & 1.719 & 0.533  & 1.824     & 0.661 & 2.051     & 1.127 & 1.685     &       \\
+\rowcolor{lgray} 8 & 1.784 & 0.506  & 1.838     & 0.560 & 1.958     & 0.711 & 2.196     & 1.226 \\
+\end{array} \]
+\caption{Filterkoeffizienten für Bessel, $A_{max} = 3 dB$}
+\label{tab:filt-coeff-butt}
+\end{table}
+
+\begin{table}[h!]
+\[ \begin{array}{@{}lcccccccc}
+\rowcolor{white} n & f_{0_1}& Q_1   & f_{0_2}   & Q_2   & f_{0_3}   & Q_3   & f_{0_4}   & Q_4   \\
+\rowcolor{lgray} 2 & 1.820  & 0.767 &           &       &           &       &           &       \\
+\rowcolor{white} 3 & 1.300  & 1.341 & 0.969     &       &           &       &           &       \\
+\rowcolor{lgray} 4 & 1.153  & 2.183 & 0.789     & 0.619 &           &       &           &       \\
+\rowcolor{white} 5 & 1.093  & 3.282 & 0.797     & 0.915 & 0.539     &       &           &       \\
+\rowcolor{lgray} 6 & 1.063  & 4.633 & 0.834     & 1.332 & 0.513     & 0.599 &           &       \\
+\rowcolor{white} 7 & 1.045  & 6.233 & 0.868     & 1.847 & 0.575     & 0.846 & 0.377     &       \\
+\rowcolor{lgray} 8 & 1.034  & 8.082 & 0.894     & 2.453 & 0.645     & 1.183 & 0.382     & 0.593 \\
+\end{array} \]
+\caption{Filterkoeffizienten für Tschebyscheff mit $0.1 dB$ Welligkeit}
+\label{tab:filt-coeff-butt}
+\end{table}
+
+\begin{table}[h!]
+\[ \begin{array}{@{}lcccccccc}
+\rowcolor{white} n & f_{0_1}& Q_1   & f_{0_2}   & Q_2   & f_{0_3}   & Q_3   & f_{0_4}   & Q_4   \\
+\rowcolor{lgray} 2 & 1.050  & 0.957 &           &       &           &       &           &       \\
+\rowcolor{white} 3 & 0.997  & 2.018 & 0.494     &       &           &       &           &       \\
+\rowcolor{lgray} 4 & 0.993  & 3.559 & 0.529     & 0.785 &           &       &           &       \\
+\rowcolor{white} 5 & 0.994  & 5.559 & 0.655     & 1.399 & 0.289     &       &           &       \\
+\rowcolor{lgray} 6 & 0.995  & 8.004 & 0.747     & 2.198 & 0.353     & 0.761 &           &       \\
+\rowcolor{white} 7 & 0.996  &10.899 & 0.808     & 3.156 & 0.480     & 1.297 & 0.205     &       \\
+\rowcolor{lgray} 8 & 0.997  &14.240 & 0.851     & 4.266 & 0.584     & 1.956 & 0.265     & 0.753 \\
+\end{array} \]
+\caption{Filterkoeffizienten für Tschebyscheff mit $1 dB$ Welligkeit}
+\label{tab:filt-coeff-butt}
+\end{table}
