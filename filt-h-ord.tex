@@ -1,0 +1,42 @@
+% coding:utf-8
+
+%FOSAET, a LaTeX-Code for a electrical summary of basic electronics
+%Copyright (C) 2013, Daniel Winz, Ervin Mazlagic
+
+%This program is free software; you can redistribute it and/or
+%modify it under the terms of the GNU General Public License
+%as published by the Free Software Foundation; either version 2
+%of the License, or (at your option) any later version.
+
+%This program is distributed in the hope that it will be useful,
+%but WITHOUT ANY WARRANTY; without even the implied warranty of
+%MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+%GNU General Public License for more details.
+%----------------------------------------
+
+\section{Filter höherer Ordnung}
+Filter höherer Ordunung können aus Filtern erster und zweiter Ordnung 
+zusammengesetzt werden. Dabei können die einzelnen Filter parallel oder in 
+Kaskadenform kombiniert werden. Die Kaskadenform wird dabei weitaus häufiger 
+verwendet. 
+
+\subsection{Bestimmen der Ordnung}
+Butterworth Filter
+\[ N \geq \frac{\log_{10}\left(\dfrac{\lambda}{\epsilon}\right)}
+{\log_{10}\left(\dfrac{f_s}{f_g}\right)} 
+= \frac{\log_{10}\left(\sqrt{\dfrac{10^{(0.1 \cdot A_{min_{dB}})} - 1}
+{10^{(0.1 \cdot A_{max_{dB}})} - 1}}\right)}
+{\log_{10}\left(\dfrac{f_s}{f_g}\right)} 
+= \frac{\log_{10}\left(\sqrt{\dfrac{\frac{1}{{A_{min}}^2} - 1}
+{\frac{1}{{A_{max}}^2} - 1}}\right)}
+{\log_{10}\left(\dfrac{f_s}{f_g}\right)} \]
+Tschebyscheff Filter
+\[ N \geq \frac{\arccosh\left(\dfrac{\lambda}{\epsilon}\right)}
+{\arccosh\left(\dfrac{f_s}{f_g}\right)} 
+= \frac{\arccosh\left(\sqrt{\dfrac{10^{(0.1 \cdot A_{min_{dB}})} - 1}
+{10^{(0.1 \cdot A_{max_{dB}})} - 1}}\right)}
+{\arccosh\left(\dfrac{f_s}{f_g}\right)} 
+= \frac{\arccosh\left(\sqrt{\dfrac{\frac{1}{{A_{min}}^2} - 1}
+{\frac{1}{{A_{max}}^2} - 1}}\right)}
+{\arccosh\left(\dfrac{f_s}{f_g}\right)} \]
+
