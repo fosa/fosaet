@@ -365,3 +365,34 @@ Schalter offen:
 \[ I_{1_{Av}} = I_{2_{Av}} \]
 \[ a = 1 - \frac{U_{1_{Av}}}{U_{2_{Av}}} \]
 
+\section{Einphasiger Gleichrichter}
+Vereinfachungen: 
+\begin{itemize}
+  \item ideale Diode
+\end{itemize}
+ungesteuert: 
+\[ U_{2_0} = \frac{1}{T} \int\limits_0^T u_2 ~dt = \frac{1}{\pi} 
+\int\limits_0^\pi u_2 (\underbrace{\varphi}_{\omega t}) ~ d\varphi 
+= \frac{2 \sqrt{2}}{\pi} \cdot U_1 = 0.9 \cdot U_1 \]
+gesteuert, Zündwinkel $\alpha$:
+\[ U_{2_\alpha} = U_{2_0} \cdot \frac{1 + \cos(\alpha)}{2} \]
+ideale Stromglättung mit $L \to \infty$: 
+\[ U_{2_\alpha} = \frac{1}{\pi} \int\limits_\alpha^{\pi + \alpha} u_d(\varphi) 
+~ d \varphi = U_{2_0} \cdot \cos(\alpha) \]
+Leistungen: 
+\[ P_{2_\alpha} = I_2 \cdot U_{2_\alpha} 
+= I_2 \cdot U_{2_0} \cdot \cos(\alpha) \]
+\[ I_{1_{eff}} = I_2 \]
+\[ S_1 = U_1 \cdot I_{1_{eff}} 
+= \frac{\pi}{2 \sqrt{2}} \cdot U_{2_0} \cdot I_2 = 1.1 \cdot U_2 \cdot I_2 \]
+\[ \lambda = \frac{P_1}{S_1} = 0.9 \cdot \cos{\alpha} \]
+Steuerkennlinien: 
+\[ R_{Last} = \frac{1}{\pi} \int\limits_\alpha^\pi u_2 ~ d(\omega t) 
+= U_{2_\alpha} \cdot \frac{1 + \cos(\alpha)}{2} \]
+L-Glättung: 
+\[ U_{2_\alpha} = U_{2_0} \cdot \cos(\alpha) \]
+C-Glättung: 
+\[ \begin{array}{@{}l@{}l}
+U_{2_\alpha} = U_1 \cdot \sqrt{2} & \qquad (0^\circ < \alpha < 90^\circ) \\\\
+U_{2_\alpha} = U_1 \cdot \sqrt{2} \cdot \sin(\alpha) & \qquad (90^\circ < \alpha < 180^\circ) \\
+\end{array} \]
