@@ -407,3 +407,15 @@ Ströme bei Stromglättung ($L \to \infty$)
 \[ I_1 = \sqrt{\frac{2}{3}} I_2 \qquad \text{(Effektivwert)} \]
 \[ I_{HL} = \sqrt{\frac{1}{3}} I_2 \qquad \text{(Effektivwert)} \]
 \[ I_{HL_{Av}} = \frac{1}{3} I_2 \]
+
+\section{Verluste im Halbleiter}
+Leitender Zustand: 
+\[ P_{V_{Leit}} = \frac{1}{T} \int\limits_{0}^{T} u \cdot i ~dt = U_D \cdot I_{Av} + r_D \cdot I^2 \]
+\begin{tabular}{ll}
+$U_D$: & Schleusenspannung \\
+$r_D$: & differentieller Widerstand \\
+\end{tabular}\\
+Schaltverluste: 
+\[ E_{ein} = \int\limits_0^{t_{ein}} u \cdot i ~ dt 
+\qquad E_{aus} = \int\limits_0^{t_{aus}} u \cdot i ~ dt \]
+\[ P_{V_{Schalt}} = (E_{ein} + E_{aus}) \cdot f \]
