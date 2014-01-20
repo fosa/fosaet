@@ -15,12 +15,23 @@
 %----------------------------------------
 
 \section{Filter höherer Ordnung}
-Filter höherer Ordunung können aus Filtern erster und zweiter Ordnung 
+Filter höherer Ordnung können aus Filtern erster und zweiter Ordnung 
 zusammengesetzt werden. Dabei können die einzelnen Filter parallel oder in 
 Kaskadenform kombiniert werden. Die Kaskadenform wird dabei weitaus häufiger 
 verwendet. 
 
+\subsection{Allgemeines Vorgehen}
+\begin{enumerate}
+  \item Ordnung bestimmen 
+        (Seite \pageref{filt:ord})
+  \item Koeffizienten bestimmen 
+        (Seite \pageref{filt:koeff})
+  \item Teilfilter dimensionieren 
+        (Seiten \pageref{filt:o1-tp} bis  \pageref{filt:o2-bp})
+\end{enumerate}
+
 \subsection{Bestimmen der Ordnung}
+\label{filt:ord}
 Butterworth Filter
 \[ N \geq \frac{\log_{10}\left(\dfrac{\lambda}{\epsilon}\right)}
 {\log_{10}\left(\dfrac{f_s}{f_g}\right)} 
@@ -39,9 +50,14 @@ Tschebyscheff Filter
 = \frac{\arccosh\left(\sqrt{\dfrac{\frac{1}{{A_{min}}^2} - 1}
 {\frac{1}{{A_{max}}^2} - 1}}\right)}
 {\arccosh\left(\dfrac{f_s}{f_g}\right)} \]
+\begin{tabular}{ll}
+$f_g$: & Grenzfrequenz \\
+$f_s$: & Beginn des Sperrbereiches
+\end{tabular}
 
 \newpage
 \subsection{Bestimmen der Koeffizienten}
+\label{filt:koeff}
 \begin{table}[h!]
 \[ \begin{array}{@{}lcccccccc}
 \rowcolor{white} n & f_{0_1}& Q_1   & f_{0_2}   & Q_2   & f_{0_3}   & Q_3   & f_{0_4}   & Q_4   \\
