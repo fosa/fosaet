@@ -1,0 +1,42 @@
+% coding:utf-8
+
+%FOSAET, a LaTeX-Code for a electrical summary of basic electronics
+%Copyright (C) 2013, Daniel Winz, Ervin Mazlagic, Mario Felder
+
+%This program is free software; you can redistribute it and/or
+%modify it under the terms of the GNU General Public License
+%as published by the Free Software Foundation; either version 2
+%of the License, or (at your option) any later version.
+
+%This program is distributed in the hope that it will be useful,
+%but WITHOUT ANY WARRANTY; without even the implied warranty of
+%MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+%GNU General Public License for more details.
+%----------------------------------------
+
+\newpage
+\section{Feldeffektransistor}
+
+\subsection{Transferkennlinie}
+Steilheit:
+\[ g_{fs} = \frac{\Delta I_{D}}{\Delta U_{GS}} \]
+\[ g_{fs} = k \cdot (U_{GS} - U_t) \]
+\[ g_{fs} = \frac{2 \cdot I_D}{U_{GS} - U_t} \]
+\begin{tabular}{@{}ll}
+  $U_t$:        & Schwellsapnnung, threshold voltage\\
+  $k$:	    	& Steilheitskoeffizient oder Transconductance Parameter \\
+\end{tabular}
+
+\subsection{Ausgangskennlinie}
+\[ r_{DS} = \frac{\Delta U_{DS}}{\Delta I_D}\]
+
+\subsection{Strom- Spannungsbeziehungen}
+im Anlaufgebiet, d.h. $u_{GS} \geq U_t$ und $0 < u{DS} < u{GS} - U_t$
+\[ i_D = k \cdot \left( (u_{GS} - U_t) \cdot u_{DS} - \frac{1}{2} {u_{DS}}^2 \right) \]
+\\
+im Sättigungsgebiet, d.h. $u_{GS} > U_t$ und $u_{DS} \geq u_{GS} - U_t$
+\[ i_D = \frac{k}{2} (u_{GS} - U_t)^2 \]\\
+\begin{tabular}{@{}ll}
+  $U_t$:        & Schwellsapnnung, threshold voltage\\
+  $k$:	    	& Steilheitskoeffizient oder Transconductance Parameter \\
+\end{tabular}

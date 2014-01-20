@@ -10,7 +10,7 @@
 	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="84.006" y1="106.085" x2="84.006" y2="129.419"/>
 	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="88.673" y1="106.085" x2="88.673" y2="129.419"/>
 	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="14.673" y1="117.752" x2="84.006" y2="117.753"/>
-	<circle fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="58.673" cy="117.752" r="3.333"/>
+	<circle fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="58.673" cy="117.752" r="2.835"/>
 	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="88.673" y1="117.753" x2="167.34" y2="117.753"/>
 	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="167.34" y1="106.085" x2="167.34" y2="129.419"/>
 	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="167.34" y1="114.419" x2="184.006" y2="106.085"/>
@@ -25,7 +25,7 @@
 	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="184.006" y1="129.419" x2="184.006" y2="198.833"/>
 	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="184.006" y1="198.833" x2="14.673" y2="198.833"/>
 	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="14.673" y1="167.672" x2="14.673" y2="198.833"/>
-	<circle fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="58.673" cy="198.832" r="3.333"/>
+	<circle fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="58.673" cy="198.832" r="2.835"/>
 	<rect x="113.673" y="57.74" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="11.339" height="28.346"/>
 	<rect x="113.673" y="139.326" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="11.339" height="28.346"/>
 	<rect x="178.336" y="57.74" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="11.339" height="28.346"/>
@@ -42,8 +42,8 @@
 			</g>
 		</g>
 	</g>
-	<circle stroke="#000000" stroke-miterlimit="10" cx="119.343" cy="117.752" r="2.835"/>
-	<circle stroke="#000000" stroke-miterlimit="10" cx="119.343" cy="198.832" r="2.835"/>
+	<circle stroke="#000000" stroke-miterlimit="10" cx="119.343" cy="117.752" r="1.771"/>
+	<circle stroke="#000000" stroke-miterlimit="10" cx="119.343" cy="198.832" r="1.771"/>
 	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="208.673" y1="94.418" x2="208.673" y2="117.752"/>
 	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="213.34" y1="94.418" x2="213.34" y2="117.752"/>
 	<rect x="242.674" y="139.326" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="11.338" height="28.346"/>
@@ -52,7 +52,7 @@
 	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="248.343" y1="106.085" x2="248.343" y2="139.326"/>
 	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="248.343" y1="167.672" x2="248.343" y2="198.832"/>
 	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="248.343" y1="198.832" x2="184.006" y2="198.832"/>
-	<circle stroke="#000000" stroke-miterlimit="10" cx="184.006" cy="198.833" r="2.835"/>
+	<circle stroke="#000000" stroke-miterlimit="10" cx="184.006" cy="198.833" r="1.771"/>
 	<text transform="matrix(1 0 0 1 257.0063 153.499)" font-family="'Cambria'" font-size="12">R</text>
 	<text transform="matrix(1 0 0 1 264.4595 157.4951)" font-family="'Cambria'" font-size="6.996">L</text>
 	<text transform="matrix(1 0 0 1 127.0063 71.9131)" font-family="'Cambria'" font-size="12">R</text>
@@ -65,7 +65,7 @@
 	<text transform="matrix(1 0 0 1 10.5063 161.1631)" font-family="'Cambria'" font-size="11.077">~</text>
 	<text transform="matrix(1 0 0 1 178.3359 9.999)" font-family="'Cambria'" font-size="12">U</text>
 	<text transform="matrix(1 0 0 1 186.1113 13.9951)" font-family="'Cambria'" font-size="6.996">B</text>
-	<circle stroke="#000000" stroke-miterlimit="10" cx="184.006" cy="32.09" r="2.835"/>
+	<circle stroke="#000000" stroke-miterlimit="10" cx="184.006" cy="32.09" r="1.771"/>
 </g>
 <g id="Ebene_2">
 	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="331.75" y1="139.329" x2="331.75" y2="117.755"/>
@@ -77,13 +77,13 @@
 	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="371.235" y1="117.756" x2="371.235" y2="139.329"/>
 	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="371.235" y1="167.675" x2="371.235" y2="198.835"/>
 	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="471.231" y1="125.155" x2="471.231" y2="117.756"/>
-	<circle stroke="#000000" stroke-miterlimit="10" cx="371.235" cy="117.755" r="2.835"/>
-	<circle stroke="#000000" stroke-miterlimit="10" cx="371.235" cy="198.835" r="2.835"/>
+	<circle stroke="#000000" stroke-miterlimit="10" cx="371.235" cy="117.755" r="1.771"/>
+	<circle stroke="#000000" stroke-miterlimit="10" cx="371.235" cy="198.835" r="1.771"/>
 	<rect x="558.897" y="139.329" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="11.338" height="28.346"/>
 	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="564.567" y1="117.756" x2="564.567" y2="139.329"/>
 	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="564.567" y1="167.675" x2="564.567" y2="198.835"/>
 	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="564.569" y1="198.835" x2="331.75" y2="198.835"/>
-	<circle stroke="#000000" stroke-miterlimit="10" cx="485.405" cy="198.835" r="2.835"/>
+	<circle stroke="#000000" stroke-miterlimit="10" cx="485.405" cy="198.835" r="1.771"/>
 	<text transform="matrix(1 0 0 1 573.231 153.502)" font-family="'Cambria'" font-size="12">R</text>
 	<text transform="matrix(1 0 0 1 580.6841 157.498)" font-family="'Cambria'" font-size="6.996">L</text>
 	<text transform="matrix(1 0 0 1 339.4146 153.501)" font-family="'Cambria'" font-size="12">R</text>
@@ -96,7 +96,7 @@
 	<text transform="matrix(1 0 0 1 397.2329 104.502)" font-family="'Cambria'" font-size="12">r</text>
 	<text transform="matrix(1 0 0 1 402.1958 108.498)" font-family="'Cambria'" font-size="6.996">BE</text>
 	
-		<rect x="461.224" y="129.299" transform="matrix(0.7071 0.7071 -0.7071 0.7071 236.5238 -292.4071)" fill="none" stroke="#000000" stroke-miterlimit="10" width="20.044" height="20.042"/>
+		<rect x="461.206" y="129.303" transform="matrix(-0.7072 -0.7071 0.7071 -0.7072 705.9492 571.0337)" fill="none" stroke="#000000" stroke-miterlimit="10" width="20.043" height="20.042"/>
 	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="457.059" y1="139.329" x2="485.405" y2="139.329"/>
 	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="471.231" y1="153.501" x2="471.231" y2="162.586"/>
 	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="485.405" y1="162.586" x2="427.752" y2="162.586"/>
@@ -124,9 +124,9 @@
 			</g>
 		</g>
 	</g>
-	<circle stroke="#000000" stroke-miterlimit="10" cx="505.901" cy="117.756" r="2.835"/>
-	<circle stroke="#000000" stroke-miterlimit="10" cx="534.893" cy="117.756" r="2.835"/>
-	<circle stroke="#000000" stroke-miterlimit="10" cx="505.901" cy="198.835" r="2.835"/>
-	<circle stroke="#000000" stroke-miterlimit="10" cx="534.895" cy="198.835" r="2.835"/>
+	<circle stroke="#000000" stroke-miterlimit="10" cx="505.901" cy="117.756" r="1.771"/>
+	<circle stroke="#000000" stroke-miterlimit="10" cx="534.893" cy="117.756" r="1.771"/>
+	<circle stroke="#000000" stroke-miterlimit="10" cx="505.901" cy="198.835" r="1.771"/>
+	<circle stroke="#000000" stroke-miterlimit="10" cx="534.895" cy="198.835" r="1.771"/>
 </g>
 </svg>
