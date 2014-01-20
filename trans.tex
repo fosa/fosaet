@@ -15,7 +15,7 @@
 %----------------------------------------
 
 \newpage
-\section{Transistor}
+\section{Bipolartransistor}
 
 \subsection{Eingangskennlinie}
 \[ r_{BE} = \frac{\Delta U_{BE}}{\Delta I_B} \]
@@ -55,3 +55,113 @@
   $n$:	        & Idealitätsfaktor $n = 1..2$ ($n = 1$ typisch) \\
 \end{tabular}
 
+\subsection{Emitterschaltung}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width = \linewidth]{trans_emitter.pdf}
+	\caption{Emitterschaltung mit Kleinsignalersatzschaltbild}
+	\label{trans:emitterschaltung}
+\end{figure}
+\noindent
+Spannungsverstärkung:
+\[
+	V_u = \frac{u_a}{u_e} = \beta \frac{r_{CE} \parallel R_C \parallel R_L}{r_{BE}}
+\]
+Eingangswiderstand:
+\[
+	r_e = r_{BE} \parallel R_1 \parallel R_2
+\]
+Stromverstärkung:
+\[
+	V_i = \frac{i_a}{i_e} = \beta \frac{r_{CE} \parallel R_C \parallel R_L}{R_L}
+\]
+Ausgangswiderstand:
+\[
+	r_a = r_{CE} \parallel R_C
+\]
+
+\subsection{Emitterschaltung mit Stromgegenkopplung}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width = \linewidth]{trans_emitter_stromgegen.pdf}
+	\caption{Emitterschaltung mit Stromgegenkopplung und Kleinsignalersatzschaltbild}
+	\label{trans:emitterschaltung_sgk}
+\end{figure}
+\noindent
+Kleinsignal Formeln (Näherungen, $r_{CE} = \infty$):
+\\\\
+Spannungsverstärkung:
+\[
+	V_U = \frac{u_a}{u_e} = \frac{-\beta \cdot R_C}{r_{BE} + (1 + \beta) \cdot R_E} \approx \frac{-R_C}{R_E}
+\]
+Eingangswiderstand Transistor:
+\[
+	r_{eTr} \approx r_{BE} + (\beta + 1) \cdot R_E
+\]
+Gesammt Eingangswiderstand:
+\[
+	r_e \approx r_{eTr} \parallel R_1 \parallel R_2
+\]
+Ausgangswiderstand:
+\[
+	r_a \approx R_C
+\]
+
+\subsection{Emitterschaltung mit Transistorkapazitäten}
+\[
+	f_{go} = \frac{1}{2\pi \cdot R_q \parallel R_{eTR} \cdot C_{inT}}
+\]
+\[
+	C_{inT} = C_{CB} \cdot (1-V_{ue}) + C_{BE} \cdot (1-V_{uc})
+\]
+\begin{tabular}{@{}ll}
+  $V_{ue}$:	    & Verstärkung der Emitterschaltung ($\frac{U_{C}}{U_{B}}$) \\
+  $V_{uc}$:	    & Verstärkung der Kollektorschaltung ($\frac{U_{E}}{U_{B}}$) \\
+\end{tabular}
+
+\subsection{Kollektorschaltung}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width = \linewidth]{trans_kollektor.pdf}
+	\caption{Kollektorschaltung mit Kleinsignalersatzschaltbild}
+	\label{trans:kollektroschaltung}
+\end{figure}
+\noindent
+Verstärkung:
+\[
+	V_U = \frac{u_a}{u_e} = \frac{1}{1 + \frac{r_{BE}}{(\beta + 1) \cdot R_E \parallel R_L}}
+\]
+Eingangswiderstand:
+\[
+	r_e = R_1 \parallel R_2 \parallel (r_{BE} + (\beta+1) \cdot R_E \parallel R_L)
+\]
+Ausgangswiderstand:
+\[
+	r_a = R_E \parallel \frac{R_1 \parallel R_2 \parallel R_q + r_{BE}}{\beta + 1}
+\]
+
+\subsection{Dalingtonschaltung}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale = 0.6]{darlington.pdf}
+	\caption{Darlingtonschaltung}
+	\label{trans:darlington}
+\end{figure}
+\noindent
+Ersatzkennwerte:
+\[ \beta' = \beta_1 \cdot \beta_2 \]
+\[ r_{BE}' = 2r_{BE1} \]
+\[ r_{CE}' = \frac{2}{3} r_{CE2} \]
+
+\subsection{Komplementär Darlington-Schaltung}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale = 0.6]{darlington_komp.pdf}
+	\caption{Komplementär Darlington-Schaltung}
+	\label{trans:darlington_komp}
+\end{figure}
+\noindent
+Ersatzkennwerte:
+\[ \beta' = \beta_1 \cdot \beta_2 \]
+\[ r_{BE}' = r_{BE1} \]
+\[ r_{CE}' = \frac{1}{2} r_{CE2} \]
