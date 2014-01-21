@@ -92,13 +92,13 @@ Kleinsignal Formeln (Näherungen, $r_{CE} = \infty$):
 \\\\
 Spannungsverstärkung:
 \[
-	V_U = \frac{u_a}{u_e} = \frac{-\beta \cdot R_C}{r_{BE} + (1 + \beta) \cdot R_E} \approx \frac{-R_C}{R_E}
+	V_U = \frac{u_a}{u_e} = \frac{-\beta \cdot (R_C || R_L)}{r_{BE} + (1 + \beta) \cdot R_E} \stackrel{R_L \to \infty}{=} \frac{-\beta \cdot R_C}{r_{BE} + (1 + \beta) \cdot R_E} \approx \frac{-R_C}{R_E}
 \]
 Eingangswiderstand Transistor:
 \[
 	r_{eTr} \approx r_{BE} + (\beta + 1) \cdot R_E
 \]
-Gesammt Eingangswiderstand:
+Gesamt Eingangswiderstand:
 \[
 	r_e \approx r_{eTr} \parallel R_1 \parallel R_2
 \]
@@ -140,7 +140,7 @@ Ausgangswiderstand:
 	r_a = R_E \parallel \frac{R_1 \parallel R_2 \parallel R_q + r_{BE}}{\beta + 1}
 \]
 
-\subsection{Dalingtonschaltung}
+\subsection{Darlingtonschaltung}
 \begin{figure}[h!]
 	\centering
 	\includegraphics[scale = 0.6]{darlington.pdf}

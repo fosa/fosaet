@@ -1,146 +1,1006 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="607.067px" height="204.063px" viewBox="0 0 607.067 204.063" enable-background="new 0 0 607.067 204.063"
-	 xml:space="preserve">
-<g id="Ebene_1_1_">
-	<circle fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="14.673" cy="153.499" r="14.173"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="14.673" y1="139.326" x2="14.673" y2="117.752"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="84.006" y1="106.085" x2="84.006" y2="129.419"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="88.673" y1="106.085" x2="88.673" y2="129.419"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="14.673" y1="117.752" x2="84.006" y2="117.753"/>
-	<circle fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="58.673" cy="117.752" r="2.835"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="88.673" y1="117.753" x2="167.34" y2="117.753"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="167.34" y1="106.085" x2="167.34" y2="129.419"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="167.34" y1="114.419" x2="184.006" y2="106.085"/>
-	<g>
-		<g>
-			<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="167.34" y1="121.086" x2="177.271" y2="126.051"/>
-			<g>
-				<polygon points="174.66,127.507 184.005,129.42 176.869,123.089 				"/>
-			</g>
-		</g>
-	</g>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="184.006" y1="129.419" x2="184.006" y2="198.833"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="184.006" y1="198.833" x2="14.673" y2="198.833"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="14.673" y1="167.672" x2="14.673" y2="198.833"/>
-	<circle fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="58.673" cy="198.832" r="2.835"/>
-	<rect x="113.673" y="57.74" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="11.339" height="28.346"/>
-	<rect x="113.673" y="139.326" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="11.339" height="28.346"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="119.343" y1="86.086" x2="119.343" y2="139.326"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="119.343" y1="167.672" x2="119.343" y2="198.833"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="119.343" y1="57.74" x2="119.343" y2="32.091"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="119.343" y1="32.091" x2="184.006" y2="32.091"/>
-	<g>
-		<g>
-			<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="184.006" y1="106.085" x2="184.006" y2="20.086"/>
-			<g>
-				<polygon points="186.186,21.573 184.008,13.441 181.827,21.573 				"/>
-			</g>
-		</g>
-	</g>
-	<circle stroke="#000000" stroke-miterlimit="10" cx="119.343" cy="117.752" r="1.771"/>
-	<circle stroke="#000000" stroke-miterlimit="10" cx="119.343" cy="198.832" r="1.771"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="208.673" y1="94.418" x2="208.673" y2="117.752"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="213.34" y1="94.418" x2="213.34" y2="117.752"/>
-	<rect x="178.336" y="140.326" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="11.338" height="28.346"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="184.006" y1="106.085" x2="208.673" y2="106.085"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="213.34" y1="106.085" x2="248.344" y2="106.085"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="248.343" y1="198.832" x2="184.006" y2="198.832"/>
-	<circle stroke="#000000" stroke-miterlimit="10" cx="184.006" cy="198.833" r="1.771"/>
-	<text transform="matrix(1 0 0 1 192.668 154.4993)" font-family="'Cambria'" font-size="12">R</text>
-	<text transform="matrix(1 0 0 1 200.1216 158.4954)" font-family="'Cambria'" font-size="6.996">E</text>
-	<text transform="matrix(1 0 0 1 127.0063 71.9133)" font-family="'Cambria'" font-size="12">R</text>
-	<text transform="matrix(1 0 0 1 134.4595 75.9094)" font-family="'Cambria'" font-size="6.996">1</text>
-	<text transform="matrix(1 0 0 1 127.0063 153.4993)" font-family="'Cambria'" font-size="12">R</text>
-	<text transform="matrix(1 0 0 1 134.4595 157.4954)" font-family="'Cambria'" font-size="6.996">2</text>
-	<text transform="matrix(1 0 0 1 10.5063 154.4993)" font-family="'Cambria'" font-size="12">G</text>
-	<text transform="matrix(1 0 0 1 10.5063 161.1633)" font-family="'Cambria'" font-size="11.077">~</text>
-	<text transform="matrix(1 0 0 1 178.3359 9.9993)" font-family="'Cambria'" font-size="12">U</text>
-	<text transform="matrix(1 0 0 1 186.1113 13.9954)" font-family="'Cambria'" font-size="6.996">B</text>
-	<circle stroke="#000000" stroke-miterlimit="10" cx="184.006" cy="32.09" r="1.771"/>
-	<circle fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="248.343" cy="198.832" r="2.835"/>
-	<circle fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="248.343" cy="106.085" r="2.835"/>
-	<rect x="18.833" y="112.083" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="28.346" height="11.339"/>
-	<text transform="matrix(1 0 0 1 28.8467 106.0852)" font-family="'Cambria'" font-size="12">R</text>
-	<text transform="matrix(1 0 0 1 36.3003 110.0813)" font-family="'Cambria'" font-size="6.996">q</text>
-	<rect x="226.668" y="140.663" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="11.338" height="28.346"/>
-	<text transform="matrix(1 0 0 1 241 154.8362)" font-family="'Cambria'" font-size="12">R</text>
-	<text transform="matrix(1 0 0 1 248.4536 158.8323)" font-family="'Cambria'" font-size="6.996">L</text>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="232.337" y1="140.663" x2="232.337" y2="106.085"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="232.337" y1="169.009" x2="232.337" y2="198.832"/>
-	<circle stroke="#000000" stroke-miterlimit="10" cx="232.337" cy="198.832" r="1.771"/>
-	<circle stroke="#000000" stroke-miterlimit="10" cx="232.337" cy="106.085" r="1.771"/>
-</g>
-<g id="Ebene_2">
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="370.417" y1="139.329" x2="370.417" y2="101.216"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="331.75" y1="101.755" x2="428.061" y2="101.756"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="370.417" y1="167.675" x2="370.417" y2="198.835"/>
-	<rect x="364.747" y="139.329" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="11.338" height="28.346"/>
-	<rect x="404.233" y="139.329" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="11.338" height="28.346"/>
-	<rect x="543.395" y="139.326" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="11.342" height="28.346"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="409.901" y1="101.217" x2="409.901" y2="139.329"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="409.901" y1="167.675" x2="409.901" y2="198.835"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="509.897" y1="109.11" x2="509.897" y2="101.711"/>
-	<circle stroke="#000000" stroke-miterlimit="10" cx="409.901" cy="101.755" r="1.771"/>
-	<circle stroke="#000000" stroke-miterlimit="10" cx="409.901" cy="198.835" r="1.771"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="603.235" y1="198.835" x2="331.75" y2="198.835"/>
-	<circle stroke="#000000" stroke-miterlimit="10" cx="490.336" cy="198.832" r="1.771"/>
-	<text transform="matrix(1 0 0 1 378.0806 153.5012)" font-family="'Cambria'" font-size="12">R</text>
-	<text transform="matrix(1 0 0 1 385.5337 157.4983)" font-family="'Cambria'" font-size="6.996">1</text>
-	<text transform="matrix(1 0 0 1 417.5649 153.5022)" font-family="'Cambria'" font-size="12">R</text>
-	<text transform="matrix(1 0 0 1 425.0181 157.4983)" font-family="'Cambria'" font-size="6.996">2</text>
-	<text transform="matrix(1 0 0 1 556.5669 153.4993)" font-family="'Cambria'" font-size="12">R</text>
-	<text transform="matrix(1 0 0 1 564.02 157.4944)" font-family="'Cambria'" font-size="6.996">C</text>
-	<rect x="428.061" y="96.083" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="28.346" height="11.338"/>
-	<text transform="matrix(1 0 0 1 435.8989 88.5022)" font-family="'Cambria'" font-size="12">r</text>
-	<text transform="matrix(1 0 0 1 440.8608 92.4983)" font-family="'Cambria'" font-size="6.996">BE</text>
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Ebene_1"
+   x="0px"
+   y="0px"
+   width="607.067px"
+   height="204.063px"
+   viewBox="0 0 607.067 204.063"
+   enable-background="new 0 0 607.067 204.063"
+   xml:space="preserve"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="trans_kollektor.svg"><metadata
+   id="metadata259"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs257">
 	
-		<rect x="499.874" y="113.302" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 783.2269 571.0861)" fill="none" stroke="#000000" stroke-miterlimit="10" width="20.043" height="20.043"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="495.725" y1="123.329" x2="524.071" y2="123.329"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="509.897" y1="137.501" x2="509.897" y2="146.586"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="524.071" y1="146.586" x2="466.418" y2="146.586"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="456.407" y1="101.752" x2="474.752" y2="101.756"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="474.752" y1="101.756" x2="474.752" y2="146.586"/>
-	<rect x="484.667" y="156.333" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="11.34" height="28.346"/>
-	<text transform="matrix(1 0 0 1 497.8384 170.5061)" font-family="'Cambria'" font-size="12">R</text>
-	<text transform="matrix(1 0 0 1 505.2915 174.5022)" font-family="'Cambria'" font-size="6.996">E</text>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="490.338" y1="146.586" x2="490.336" y2="156.333"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="509.897" y1="101.756" x2="603.235" y2="101.756"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="549.065" y1="139.326" x2="549.065" y2="101.711"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="549.065" y1="167.675" x2="549.065" y2="198.835"/>
-	<text transform="matrix(1 0 0 1 480.6587 94.6672)" font-family="'Cambria'" font-size="12">i</text>
-	<text transform="matrix(1 0 0 1 483.9917 98.6633)" font-family="'Cambria'" font-size="6.996">c</text>
-	<text transform="matrix(1 0 0 1 487.0767 94.6672)" font-family="'Cambria'" font-size="12">=i</text>
-	<text transform="matrix(1 0 0 1 497.0552 98.6633)" font-family="'Cambria'" font-size="6.996">b</text>
-	<text transform="matrix(1 0 0 1 500.8853 94.6672)" font-family="'Cambria'" font-size="12">·β</text>
-	<g>
-		<g>
-			<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="491.252" y1="101.752" x2="491.252" y2="135.399"/>
-			<g>
-				<polygon points="489.073,133.913 491.25,142.043 493.43,133.913 				"/>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</defs><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1600"
+   inkscape:window-height="816"
+   id="namedview255"
+   showgrid="false"
+   inkscape:object-paths="true"
+   inkscape:snap-intersection-paths="true"
+   inkscape:object-nodes="true"
+   inkscape:snap-smooth-nodes="true"
+   inkscape:snap-midpoints="true"
+   inkscape:zoom="2.2732251"
+   inkscape:cx="509.70355"
+   inkscape:cy="98.928019"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Ebene_1" />
+<g
+   id="g3297"><circle
+     stroke-miterlimit="10"
+     cx="14.673"
+     cy="153.49899"
+     r="14.173"
+     id="circle4"
+     sodipodi:cx="14.673"
+     sodipodi:cy="153.49899"
+     sodipodi:rx="14.173"
+     sodipodi:ry="14.173"
+     style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10" /><line
+     stroke-miterlimit="10"
+     x1="14.673"
+     y1="139.326"
+     x2="14.673"
+     y2="117.752"
+     id="line6"
+     style="fill:none;stroke:#000000;stroke-miterlimit:10" /><line
+     stroke-miterlimit="10"
+     x1="84.005997"
+     y1="106.085"
+     x2="84.005997"
+     y2="129.41901"
+     id="line8"
+     style="fill:none;stroke:#000000;stroke-miterlimit:10" /><line
+     stroke-miterlimit="10"
+     x1="88.672997"
+     y1="106.085"
+     x2="88.672997"
+     y2="129.41901"
+     id="line10"
+     style="fill:none;stroke:#000000;stroke-miterlimit:10" /><line
+     stroke-miterlimit="10"
+     x1="14.673"
+     y1="117.752"
+     x2="84.005997"
+     y2="117.753"
+     id="line12"
+     style="fill:none;stroke:#000000;stroke-miterlimit:10" /><circle
+     stroke-miterlimit="10"
+     cx="58.673"
+     cy="117.752"
+     r="2.835"
+     id="circle14"
+     sodipodi:cx="58.673"
+     sodipodi:cy="117.752"
+     sodipodi:rx="2.835"
+     sodipodi:ry="2.835"
+     style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10" /><line
+     stroke-miterlimit="10"
+     x1="88.672997"
+     y1="117.753"
+     x2="167.34"
+     y2="117.753"
+     id="line16"
+     style="fill:none;stroke:#000000;stroke-miterlimit:10" /><line
+     stroke-miterlimit="10"
+     x1="167.34"
+     y1="106.085"
+     x2="167.34"
+     y2="129.41901"
+     id="line18"
+     style="fill:none;stroke:#000000;stroke-miterlimit:10" /><line
+     stroke-miterlimit="10"
+     x1="167.34"
+     y1="114.419"
+     x2="184.006"
+     y2="106.085"
+     id="line20"
+     style="fill:none;stroke:#000000;stroke-miterlimit:10" /><g
+     id="g22">
+		<g
+   id="g24">
+			<line
+   stroke-miterlimit="10"
+   x1="167.34"
+   y1="121.086"
+   x2="177.271"
+   y2="126.051"
+   id="line26"
+   style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+			<g
+   id="g28">
+				<polygon
+   points="176.869,123.089 174.66,127.507 184.005,129.42 "
+   id="polygon30" />
 			</g>
 		</g>
-	</g>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="490.336" y1="184.68" x2="490.336" y2="198.833"/>
-	<circle fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="603.233" cy="101.756" r="2.835"/>
-	<circle fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="603.233" cy="198.835" r="2.835"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="331.75" y1="139.575" x2="331.75" y2="101.463"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="331.75" y1="167.922" x2="331.75" y2="199.082"/>
-	<rect x="326.081" y="139.575" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="11.338" height="28.346"/>
-	<text transform="matrix(1 0 0 1 339.4146 154.7483)" font-family="'Cambria'" font-size="12">R</text>
-	<text transform="matrix(1 0 0 1 346.8677 158.7444)" font-family="'Cambria'" font-size="6.996">q</text>
-	<circle stroke="#000000" stroke-miterlimit="10" cx="370.417" cy="101.216" r="1.771"/>
-	<circle stroke="#000000" stroke-miterlimit="10" cx="370.417" cy="198.835" r="1.771"/>
-	<rect x="578.415" y="139.764" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="11.34" height="28.346"/>
-	<text transform="matrix(1 0 0 1 591.5864 153.9368)" font-family="'Cambria'" font-size="12">R</text>
-	<text transform="matrix(1 0 0 1 599.0396 157.9329)" font-family="'Cambria'" font-size="6.996">L</text>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="584.084" y1="139.764" x2="584.084" y2="102.149"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="584.084" y1="168.114" x2="584.084" y2="199.273"/>
-	<circle stroke="#000000" stroke-miterlimit="10" cx="549.067" cy="198.834" r="1.771"/>
-	<circle stroke="#000000" stroke-miterlimit="10" cx="584.086" cy="199.273" r="1.771"/>
-	<circle stroke="#000000" stroke-miterlimit="10" cx="549.067" cy="101.71" r="1.771"/>
-	<circle stroke="#000000" stroke-miterlimit="10" cx="584.086" cy="102.149" r="1.771"/>
-</g>
-</svg>
+	</g><line
+     stroke-miterlimit="10"
+     x1="184.006"
+     y1="129.41901"
+     x2="184.006"
+     y2="198.83299"
+     id="line32"
+     style="fill:none;stroke:#000000;stroke-miterlimit:10" /><line
+     stroke-miterlimit="10"
+     x1="184.006"
+     y1="198.83299"
+     x2="14.673"
+     y2="198.83299"
+     id="line34"
+     style="fill:none;stroke:#000000;stroke-miterlimit:10" /><line
+     stroke-miterlimit="10"
+     x1="14.673"
+     y1="167.672"
+     x2="14.673"
+     y2="198.83299"
+     id="line36"
+     style="fill:none;stroke:#000000;stroke-miterlimit:10" /><circle
+     stroke-miterlimit="10"
+     cx="58.673"
+     cy="198.832"
+     r="2.835"
+     id="circle38"
+     sodipodi:cx="58.673"
+     sodipodi:cy="198.832"
+     sodipodi:rx="2.835"
+     sodipodi:ry="2.835"
+     style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10" /><rect
+     x="113.673"
+     y="57.740002"
+     stroke-miterlimit="10"
+     width="11.339"
+     height="28.346001"
+     id="rect40"
+     style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10" /><rect
+     x="113.673"
+     y="139.326"
+     stroke-miterlimit="10"
+     width="11.339"
+     height="28.346001"
+     id="rect42"
+     style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10" /><line
+     stroke-miterlimit="10"
+     x1="119.343"
+     y1="86.085999"
+     x2="119.343"
+     y2="139.326"
+     id="line44"
+     style="fill:none;stroke:#000000;stroke-miterlimit:10" /><line
+     stroke-miterlimit="10"
+     x1="119.343"
+     y1="167.672"
+     x2="119.343"
+     y2="198.83299"
+     id="line46"
+     style="fill:none;stroke:#000000;stroke-miterlimit:10" /><line
+     stroke-miterlimit="10"
+     x1="119.343"
+     y1="57.740002"
+     x2="119.343"
+     y2="32.091"
+     id="line48"
+     style="fill:none;stroke:#000000;stroke-miterlimit:10" /><line
+     stroke-miterlimit="10"
+     x1="119.343"
+     y1="32.091"
+     x2="184.006"
+     y2="32.091"
+     id="line50"
+     style="fill:none;stroke:#000000;stroke-miterlimit:10" /><g
+     id="g52">
+		<g
+   id="g54">
+			<line
+   stroke-miterlimit="10"
+   x1="184.006"
+   y1="106.085"
+   x2="184.006"
+   y2="20.086"
+   id="line56"
+   style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+			<g
+   id="g58">
+				<polygon
+   points="181.827,21.573 186.186,21.573 184.008,13.441 "
+   id="polygon60" />
+			</g>
+		</g>
+	</g><circle
+     stroke-miterlimit="10"
+     cx="119.343"
+     cy="117.752"
+     r="1.771"
+     id="circle62"
+     sodipodi:cx="119.343"
+     sodipodi:cy="117.752"
+     sodipodi:rx="1.771"
+     sodipodi:ry="1.771"
+     style="stroke:#000000;stroke-miterlimit:10" /><circle
+     stroke-miterlimit="10"
+     cx="119.343"
+     cy="198.832"
+     r="1.771"
+     id="circle64"
+     sodipodi:cx="119.343"
+     sodipodi:cy="198.832"
+     sodipodi:rx="1.771"
+     sodipodi:ry="1.771"
+     style="stroke:#000000;stroke-miterlimit:10" /><line
+     stroke-miterlimit="10"
+     x1="208.673"
+     y1="117.75201"
+     x2="208.673"
+     y2="141.08601"
+     id="line66"
+     style="fill:none;stroke:#000000;stroke-miterlimit:10" /><line
+     stroke-miterlimit="10"
+     x1="213.34"
+     y1="117.75201"
+     x2="213.34"
+     y2="141.08601"
+     id="line68"
+     style="fill:none;stroke:#000000;stroke-miterlimit:10" /><rect
+     x="178.336"
+     y="140.326"
+     stroke-miterlimit="10"
+     width="11.338"
+     height="28.346001"
+     id="rect70"
+     style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10" /><line
+     stroke-miterlimit="10"
+     x1="184.006"
+     y1="129.41901"
+     x2="208.673"
+     y2="129.41901"
+     id="line72"
+     style="fill:none;stroke:#000000;stroke-miterlimit:10" /><line
+     stroke-miterlimit="10"
+     x1="213.34"
+     y1="129.41901"
+     x2="248.34399"
+     y2="129.41901"
+     id="line74"
+     style="fill:none;stroke:#000000;stroke-miterlimit:10" /><line
+     stroke-miterlimit="10"
+     x1="248.343"
+     y1="198.832"
+     x2="184.006"
+     y2="198.832"
+     id="line76"
+     style="fill:none;stroke:#000000;stroke-miterlimit:10" /><circle
+     stroke-miterlimit="10"
+     cx="184.006"
+     cy="198.83299"
+     r="1.771"
+     id="circle78"
+     sodipodi:cx="184.006"
+     sodipodi:cy="198.83299"
+     sodipodi:rx="1.771"
+     sodipodi:ry="1.771"
+     style="stroke:#000000;stroke-miterlimit:10" /><text
+     y="154.4993"
+     x="192.668"
+     font-size="12"
+     id="text80"
+     style="font-size:12px;font-family:Cambria">R</text>
+<text
+     y="158.49541"
+     x="200.1216"
+     font-size="6.996"
+     id="text82"
+     style="font-size:6.99599981px;font-family:Cambria">E</text>
+<text
+     y="71.9133"
+     x="127.0063"
+     font-size="12"
+     id="text84"
+     style="font-size:12px;font-family:Cambria">R</text>
+<text
+     y="75.909401"
+     x="134.4595"
+     font-size="6.996"
+     id="text86"
+     style="font-size:6.99599981px;font-family:Cambria">1</text>
+<text
+     y="153.4993"
+     x="127.0063"
+     font-size="12"
+     id="text88"
+     style="font-size:12px;font-family:Cambria">R</text>
+<text
+     y="157.49541"
+     x="134.4595"
+     font-size="6.996"
+     id="text90"
+     style="font-size:6.99599981px;font-family:Cambria">2</text>
+<text
+     y="154.4993"
+     x="10.5063"
+     font-size="12"
+     id="text92"
+     style="font-size:12px;font-family:Cambria">G</text>
+<text
+     y="161.1633"
+     x="10.5063"
+     font-size="11.077"
+     id="text94"
+     style="font-size:11.07699966px;font-family:Cambria">~</text>
+<text
+     y="9.9993"
+     x="178.33591"
+     font-size="12"
+     id="text96"
+     style="font-size:12px;font-family:Cambria">U</text>
+<text
+     y="13.9954"
+     x="186.1113"
+     font-size="6.996"
+     id="text98"
+     style="font-size:6.99599981px;font-family:Cambria">B</text>
+<circle
+     stroke-miterlimit="10"
+     cx="184.006"
+     cy="32.09"
+     r="1.771"
+     id="circle100"
+     sodipodi:cx="184.006"
+     sodipodi:cy="32.09"
+     sodipodi:rx="1.771"
+     sodipodi:ry="1.771"
+     style="stroke:#000000;stroke-miterlimit:10" /><circle
+     stroke-miterlimit="10"
+     cx="248.343"
+     cy="198.832"
+     r="2.835"
+     id="circle102"
+     sodipodi:cx="248.343"
+     sodipodi:cy="198.832"
+     sodipodi:rx="2.835"
+     sodipodi:ry="2.835"
+     style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10" /><circle
+     transform="translate(0,23.334007)"
+     stroke-miterlimit="10"
+     cx="248.343"
+     cy="106.085"
+     r="2.835"
+     id="circle104"
+     sodipodi:cx="248.343"
+     sodipodi:cy="106.085"
+     sodipodi:rx="2.835"
+     sodipodi:ry="2.835"
+     style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10" /><rect
+     x="18.833"
+     y="112.083"
+     stroke-miterlimit="10"
+     width="28.346001"
+     height="11.339"
+     id="rect106"
+     style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10" /><text
+     y="106.0852"
+     x="28.846701"
+     font-size="12"
+     id="text108"
+     style="font-size:12px;font-family:Cambria">R</text>
+<text
+     y="110.0813"
+     x="36.300301"
+     font-size="6.996"
+     id="text110"
+     style="font-size:6.99599981px;font-family:Cambria">q</text>
+<rect
+     x="226.668"
+     y="140.66299"
+     stroke-miterlimit="10"
+     width="11.338"
+     height="28.346001"
+     id="rect112"
+     style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10" /><text
+     y="154.8362"
+     x="241"
+     font-size="12"
+     id="text114"
+     style="font-size:12px;font-family:Cambria">R</text>
+<text
+     y="158.83231"
+     x="248.4536"
+     font-size="6.996"
+     id="text116"
+     style="font-size:6.99599981px;font-family:Cambria">L</text>
+<line
+     stroke-miterlimit="10"
+     x1="232.33701"
+     y1="140.66299"
+     x2="232.33701"
+     y2="131.19"
+     id="line118"
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:10" /><line
+     stroke-miterlimit="10"
+     x1="232.33701"
+     y1="169.009"
+     x2="232.33701"
+     y2="198.832"
+     id="line120"
+     style="fill:none;stroke:#000000;stroke-miterlimit:10" /><circle
+     stroke-miterlimit="10"
+     cx="232.33701"
+     cy="198.832"
+     r="1.771"
+     id="circle122"
+     sodipodi:cx="232.33701"
+     sodipodi:cy="198.832"
+     sodipodi:rx="1.771"
+     sodipodi:ry="1.771"
+     style="stroke:#000000;stroke-miterlimit:10" /><circle
+     transform="translate(0,23.334007)"
+     stroke-miterlimit="10"
+     cx="232.33701"
+     cy="106.085"
+     r="1.771"
+     id="circle124"
+     sodipodi:cx="232.33701"
+     sodipodi:cy="106.085"
+     sodipodi:rx="1.771"
+     sodipodi:ry="1.771"
+     style="stroke:#000000;stroke-miterlimit:10" /></g>
+<line
+   style="fill:none;stroke:#000000;stroke-miterlimit:10"
+   id="line127"
+   y2="101.216"
+   x2="370.41699"
+   y1="139.32899"
+   x1="370.41699"
+   stroke-miterlimit="10" /><line
+   style="fill:none;stroke:#000000;stroke-miterlimit:10"
+   id="line129"
+   y2="101.756"
+   x2="428.061"
+   y1="101.755"
+   x1="331.75"
+   stroke-miterlimit="10" /><line
+   style="fill:none;stroke:#000000;stroke-miterlimit:10"
+   id="line131"
+   y2="198.83501"
+   x2="370.41699"
+   y1="167.675"
+   x1="370.41699"
+   stroke-miterlimit="10" /><rect
+   style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10"
+   id="rect133"
+   height="28.346001"
+   width="11.338"
+   stroke-miterlimit="10"
+   y="139.32899"
+   x="364.74701" /><rect
+   style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10"
+   id="rect135"
+   height="28.346001"
+   width="11.338"
+   stroke-miterlimit="10"
+   y="139.32899"
+   x="404.233" /><line
+   style="fill:none;stroke:#000000;stroke-miterlimit:10"
+   id="line139"
+   y2="139.32899"
+   x2="409.901"
+   y1="101.217"
+   x1="409.901"
+   stroke-miterlimit="10" /><line
+   style="fill:none;stroke:#000000;stroke-miterlimit:10"
+   id="line141"
+   y2="198.83501"
+   x2="409.901"
+   y1="167.675"
+   x1="409.901"
+   stroke-miterlimit="10" /><line
+   style="fill:none;stroke:#000000;stroke-miterlimit:10"
+   id="line143"
+   y2="101.711"
+   x2="509.897"
+   y1="109.11"
+   x1="509.897"
+   stroke-miterlimit="10" /><circle
+   style="stroke:#000000;stroke-miterlimit:10"
+   sodipodi:ry="1.771"
+   sodipodi:rx="1.771"
+   sodipodi:cy="101.755"
+   sodipodi:cx="409.901"
+   id="circle145"
+   r="1.771"
+   cy="101.755"
+   cx="409.901"
+   stroke-miterlimit="10" /><circle
+   style="stroke:#000000;stroke-miterlimit:10"
+   sodipodi:ry="1.771"
+   sodipodi:rx="1.771"
+   sodipodi:cy="198.83501"
+   sodipodi:cx="409.901"
+   id="circle147"
+   r="1.771"
+   cy="198.83501"
+   cx="409.901"
+   stroke-miterlimit="10" /><line
+   style="fill:none;stroke:#000000;stroke-miterlimit:10"
+   id="line149"
+   y2="198.83501"
+   x2="331.75"
+   y1="198.83501"
+   x1="603.23499"
+   stroke-miterlimit="10" /><circle
+   style="stroke:#000000;stroke-miterlimit:10"
+   sodipodi:ry="1.771"
+   sodipodi:rx="1.771"
+   sodipodi:cy="198.832"
+   sodipodi:cx="490.336"
+   id="circle151"
+   r="1.771"
+   cy="198.832"
+   cx="490.336"
+   stroke-miterlimit="10" /><text
+   style="font-size:12px;font-family:Cambria"
+   id="text153"
+   font-size="12"
+   x="378.0806"
+   y="153.50121">R</text>
+<text
+   style="font-size:6.99599981px;font-family:Cambria"
+   id="text155"
+   font-size="6.996"
+   x="385.53369"
+   y="157.49831">1</text>
+<text
+   style="font-size:12px;font-family:Cambria"
+   id="text157"
+   font-size="12"
+   x="417.56491"
+   y="153.5022">R</text>
+<text
+   style="font-size:6.99599981px;font-family:Cambria"
+   id="text159"
+   font-size="6.996"
+   x="425.0181"
+   y="157.49831">2</text>
+<rect
+   style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10"
+   id="rect165"
+   height="11.338"
+   width="28.346001"
+   stroke-miterlimit="10"
+   y="96.083"
+   x="428.061" /><text
+   style="font-size:12px;font-family:Cambria"
+   id="text167"
+   font-size="12"
+   x="435.8989"
+   y="88.502197">r</text>
+<text
+   style="font-size:6.99599981px;font-family:Cambria"
+   id="text169"
+   font-size="6.996"
+   x="440.86081"
+   y="92.498299">BE</text>
+<rect
+   style="fill:none;stroke:#000000;stroke-width:0.9999904;stroke-miterlimit:10"
+   id="rect171"
+   height="20.042807"
+   width="20.042807"
+   stroke-miterlimit="10"
+   transform="matrix(-0.70710678,-0.70710678,0.70710678,-0.70710678,0,0)"
+   y="263.3071"
+   x="-457.77472" /><line
+   style="fill:none;stroke:#000000;stroke-miterlimit:10"
+   id="line173"
+   y2="123.329"
+   x2="524.07098"
+   y1="123.329"
+   x1="495.72501"
+   stroke-miterlimit="10" /><line
+   style="fill:none;stroke:#000000;stroke-miterlimit:10"
+   id="line175"
+   y2="146.586"
+   x2="509.897"
+   y1="137.50101"
+   x1="509.897"
+   stroke-miterlimit="10" /><line
+   style="fill:none;stroke:#000000;stroke-miterlimit:10"
+   id="line177"
+   y2="146.586"
+   x2="466.418"
+   y1="146.586"
+   x1="524.07098"
+   stroke-miterlimit="10" /><line
+   style="fill:none;stroke:#000000;stroke-miterlimit:10"
+   id="line179"
+   y2="101.756"
+   x2="474.75201"
+   y1="101.752"
+   x1="456.40701"
+   stroke-miterlimit="10" /><line
+   style="fill:none;stroke:#000000;stroke-miterlimit:10"
+   id="line181"
+   y2="146.586"
+   x2="474.75201"
+   y1="101.756"
+   x1="474.75201"
+   stroke-miterlimit="10" /><rect
+   style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10"
+   id="rect183"
+   height="28.346001"
+   width="11.34"
+   stroke-miterlimit="10"
+   y="156.33299"
+   x="484.66699" /><text
+   style="font-size:12px;font-family:Cambria"
+   id="text185"
+   font-size="12"
+   x="497.83841"
+   y="170.5061">R</text>
+<text
+   style="font-size:6.99599981px;font-family:Cambria"
+   id="text187"
+   font-size="6.996"
+   x="505.2915"
+   y="174.5022">E</text>
+<line
+   style="fill:none;stroke:#000000;stroke-miterlimit:10"
+   id="line189"
+   y2="156.33299"
+   x2="490.336"
+   y1="146.586"
+   x1="490.33801"
+   stroke-miterlimit="10" /><line
+   style="fill:none;stroke:#000000;stroke-miterlimit:10"
+   id="line191"
+   y2="146.586"
+   x2="603.23499"
+   y1="146.586"
+   x1="509.897"
+   stroke-miterlimit="10" /><line
+   style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:10"
+   id="line195"
+   y2="198.83501"
+   x2="549.065"
+   y1="101.711"
+   x1="549.065"
+   stroke-miterlimit="10" /><text
+   style="font-size:12px;font-family:Cambria"
+   id="text197"
+   font-size="12"
+   x="480.65869"
+   y="94.667198">i</text>
+<text
+   style="font-size:6.99599981px;font-family:Cambria"
+   id="text199"
+   font-size="6.996"
+   x="483.9917"
+   y="98.6633">c</text>
+<text
+   style="font-size:12px;font-family:Cambria"
+   id="text201"
+   font-size="12"
+   x="487.07669"
+   y="94.667198">=i</text>
+<text
+   style="font-size:6.99599981px;font-family:Cambria"
+   id="text203"
+   font-size="6.996"
+   x="497.05521"
+   y="98.6633">b</text>
+<text
+   style="font-size:12px;font-family:Cambria"
+   id="text205"
+   font-size="12"
+   x="500.88531"
+   y="94.667198">·β</text>
+<g
+   id="g207">
+		<g
+   id="g209">
+			<line
+   style="fill:none;stroke:#000000;stroke-miterlimit:10"
+   id="line211"
+   y2="135.399"
+   x2="491.25201"
+   y1="101.752"
+   x1="491.25201"
+   stroke-miterlimit="10" />
+			<g
+   id="g213">
+				<polygon
+   id="polygon215"
+   points="493.43,133.913 489.073,133.913 491.25,142.043 " />
+			</g>
+		</g>
+	</g><line
+   style="fill:none;stroke:#000000;stroke-miterlimit:10"
+   id="line217"
+   y2="198.83299"
+   x2="490.336"
+   y1="184.67999"
+   x1="490.336"
+   stroke-miterlimit="10" /><circle
+   style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10"
+   sodipodi:ry="2.835"
+   sodipodi:rx="2.835"
+   sodipodi:cy="101.756"
+   sodipodi:cx="603.23297"
+   id="circle219"
+   r="2.835"
+   cy="101.756"
+   cx="603.23297"
+   stroke-miterlimit="10"
+   transform="translate(0,44.830002)" /><circle
+   style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10"
+   sodipodi:ry="2.835"
+   sodipodi:rx="2.835"
+   sodipodi:cy="198.83501"
+   sodipodi:cx="603.23297"
+   id="circle221"
+   r="2.835"
+   cy="198.83501"
+   cx="603.23297"
+   stroke-miterlimit="10" /><line
+   style="fill:none;stroke:#000000;stroke-miterlimit:10"
+   id="line223"
+   y2="101.463"
+   x2="331.75"
+   y1="139.575"
+   x1="331.75"
+   stroke-miterlimit="10" /><line
+   style="fill:none;stroke:#000000;stroke-miterlimit:10"
+   id="line225"
+   y2="199.082"
+   x2="331.75"
+   y1="167.922"
+   x1="331.75"
+   stroke-miterlimit="10" /><rect
+   style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10"
+   id="rect227"
+   height="28.346001"
+   width="11.338"
+   stroke-miterlimit="10"
+   y="139.575"
+   x="326.08099" /><text
+   style="font-size:12px;font-family:Cambria"
+   id="text229"
+   font-size="12"
+   x="339.41461"
+   y="154.74831">R</text>
+<text
+   style="font-size:6.99599981px;font-family:Cambria"
+   id="text231"
+   font-size="6.996"
+   x="346.86771"
+   y="158.7444">q</text>
+<circle
+   style="stroke:#000000;stroke-miterlimit:10"
+   sodipodi:ry="1.771"
+   sodipodi:rx="1.771"
+   sodipodi:cy="101.216"
+   sodipodi:cx="370.41699"
+   id="circle233"
+   r="1.771"
+   cy="101.216"
+   cx="370.41699"
+   stroke-miterlimit="10" /><circle
+   style="stroke:#000000;stroke-miterlimit:10"
+   sodipodi:ry="1.771"
+   sodipodi:rx="1.771"
+   sodipodi:cy="198.83501"
+   sodipodi:cx="370.41699"
+   id="circle235"
+   r="1.771"
+   cy="198.83501"
+   cx="370.41699"
+   stroke-miterlimit="10" /><rect
+   style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10"
+   id="rect237"
+   height="28.346001"
+   width="11.34"
+   stroke-miterlimit="10"
+   y="155.3475"
+   x="578.414" /><text
+   style="font-size:12px;font-family:Cambria"
+   id="text239"
+   font-size="12"
+   x="591.58643"
+   y="169.9368">R</text>
+<text
+   style="font-size:6.99599981px;font-family:Cambria"
+   id="text241"
+   font-size="6.996"
+   x="599.03961"
+   y="173.93291">L</text>
+<line
+   style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:10"
+   id="line243"
+   y2="148.75"
+   x2="584.08398"
+   y1="155.3475"
+   x1="584.08398"
+   stroke-miterlimit="10" /><line
+   style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:10"
+   id="line245"
+   y2="199.27299"
+   x2="584.08398"
+   y1="183.69351"
+   x1="584.08398"
+   stroke-miterlimit="10" /><circle
+   style="stroke:#000000;stroke-miterlimit:10"
+   sodipodi:ry="1.771"
+   sodipodi:rx="1.771"
+   sodipodi:cy="198.834"
+   sodipodi:cx="549.06702"
+   id="circle247"
+   r="1.771"
+   cy="198.834"
+   cx="549.06702"
+   stroke-miterlimit="10" /><circle
+   style="stroke:#000000;stroke-miterlimit:10"
+   sodipodi:ry="1.771"
+   sodipodi:rx="1.771"
+   sodipodi:cy="199.27299"
+   sodipodi:cx="584.086"
+   id="circle249"
+   r="1.771"
+   cy="199.27299"
+   cx="584.086"
+   stroke-miterlimit="10" /><circle
+   style="stroke:#000000;stroke-miterlimit:10"
+   sodipodi:ry="1.771"
+   sodipodi:rx="1.771"
+   sodipodi:cy="102.149"
+   sodipodi:cx="584.086"
+   id="circle253"
+   r="1.771"
+   cy="102.149"
+   cx="584.086"
+   stroke-miterlimit="10"
+   transform="translate(0,44.830002)" />
+<line
+   style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:10"
+   id="line191-1"
+   y2="101.711"
+   x2="549.065"
+   y1="101.711"
+   x1="509.897"
+   stroke-miterlimit="10" /></svg>
